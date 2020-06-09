@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/icons/icon.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/icons/icon.png">
 
-<title>{{ page.title }} | {{site.name}}</title>
+    <title>{{ page.title }} | {{site.name}}</title>
 
-{% seo %}
+    {% seo %}
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-<link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
 </head>
 
@@ -44,11 +46,13 @@
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
-	<!-- defer loading of font and font awesome -->
-	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	</noscript>
+<!-- defer loading of font and font awesome -->
+<noscript id="deferred-styles">
+    <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</noscript>
 
 
 <!-- Begin Menu Navigation
@@ -57,29 +61,30 @@
 
     <div class="container pr-0">
 
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-        N_M
-    </a>
-    <!-- End Logo -->
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            N_M
+        </a>
+        <!-- End Logo -->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarMediumish">
+        <div class="collapse navbar-collapse" id="navbarMediumish">
 
-        <!-- Begin Menu -->
+            <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
 
                 {% if page.url == "/" %}
                 <li class="nav-item active">
-                {% else %}
+                    {% else %}
                 <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Accueil</a>
+                    {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/index.html">Accueil</a>
                 </li>
 
                 {% if page.url == "/categories" %}
@@ -103,7 +108,7 @@
                     {% else %}
                 <li class="nav-item">
                     {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/about">A propos</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/about">A propos</a>
                 </li>
 
                 <li class="nav-item">
@@ -112,16 +117,16 @@
                 </li>
 
                 <li class="nav-item">
-                <a target="_blank" class="nav-link" href="https://bienvenuelisis.github.io/">by elisis</a>
+                    <a target="_blank" class="nav-link" href="https://bienvenuelisis.github.io/">by elisis</a>
                 </li>
 
                 {% include search-lunr.html %}
 
             </ul>
 
-        <!-- End Menu -->
+            <!-- End Menu -->
 
-    </div>
+        </div>
 
     </div>
 </nav>
@@ -130,91 +135,107 @@
 
 <div class="site-content">
 
-<div class="container">
-
-<!-- Site Title
-================================================== -->
-<div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
-</div>
-
-<!-- Content
-================================================== -->
-<div class="main-content">
-    {{ content }}
-</div>
-
-{% if false %}
-<!-- Bottom Alert Bar
-================================================== -->
-<div class="alertbar">
-	<div class="container text-center">
-		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
-        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
-            <div class="mc-field-group">
-            <input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
-            <input type="submit" value="Subscribe" name="subscribe" class="heart">
-            </div>
-        </form>
-	</div>
-</div>
-{% endif %}
-    
-</div>
-
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-	<div class="d-md-flex h-100">
-		<div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Parcourir <span class="d-none d-md-inline">→</span></h2>
-            </div>
-		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            {% assign categories_list = site.categories %}
-            {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
-                {% endfor %}
-            {% else %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
-                {% endfor %}
-            {% endif %}
-            {% assign categories_list = nil %}
-		</div>
-	</div>
-</div>
-
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+
+        <!-- Site Title
+        ================================================== -->
+        <div class="mainheading">
+            <h1 class="sitetitle">{{ site.name }}</h1>
+            <p class="lead">
+                {{ site.description }}
+            </p>
+        </div>
+
+        <!-- Content
+        ================================================== -->
+        <div class="main-content">
+            {{ content }}
+        </div>
+
+        {% if true %}
+        <!-- Bottom Alert Bar
+        ================================================== -->
+        <div class="alertbar">
+            <div class="container text-center">
+                <span><img src="{{ site.baseurl }}/{{ site.logo }}"
+                           alt="{{site.title}}"> &nbsp;
+                    Ne manquez jamais un <b> article </b> de notre part, abonnez-vous à notre newsletter !</span>
+                <form action="https://send.pageclip.co/w9CZlJWX6Vaw8YQhC8CkYA8eRM9dijH8" class="pageclip-form" method="post">
+                    <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+                    <input type="text" name="name" value="Ama Kodzo" />
+                    <input type="email" name="email" value="amakodzo@exemple.com" />
+
+                    <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                    <button type="submit" class="pageclip-form__submit">
+                        <span>Souscrire</span>
+                    </button>
+                </form>
             </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+        </div>
+        {% endif %}
+
+    </div>
+
+    <!-- Categories Jumbotron
+    ================================================== -->
+    <div class="jumbotron fortags">
+        <div class="d-md-flex h-100">
+            <div class="col-md-4 transpdark align-self-center text-center h-100">
+                <div class="d-md-flex align-items-center justify-content-center h-100">
+                    <h2 class="d-md-block align-self-center py-1 font-weight-light">Parcourir <span
+                            class="d-none d-md-inline">→</span></h2>
+                </div>
+            </div>
+            <div class="col-md-8 p-5 align-self-center text-center">
+                {% assign categories_list = site.categories %}
+                {% if categories_list.first[0] == null %}
+                {% for category in categories_list %}
+                <a class="mt-1 mb-1"
+                   href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{
+                    category | camelcase }} ({{ site.tags[category].size }})</a>
+                {% endfor %}
+                {% else %}
+                {% for category in categories_list %}
+                <a class="mt-1 mb-1"
+                   href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{
+                    category[0] | camelcase }} ({{ category[1].size }})</a>
+                {% endfor %}
+                {% endif %}
+                {% assign categories_list = nil %}
             </div>
         </div>
     </div>
-</footer>
-<!-- End Footer
-================================================== -->
+
+    <!-- Begin Footer
+    ================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                    Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+                </div>
+                <div class="col-md-6 col-sm-6 text-center text-lg-right">
+                    <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll
+                        Theme</a> by WowThemes.net
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer
+    ================================================== -->
 
 </div> <!-- /.site-content -->
 
 <!-- Scripts
 ================================================== -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
 
@@ -222,7 +243,8 @@
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
 {% endif %}
 
-<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script> 
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>

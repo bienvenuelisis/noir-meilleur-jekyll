@@ -4,6 +4,7 @@ title: "elisis blog"
 description: "Vivre ensemble, c'est toujours possible."
 logo: 'assets/images/icons/icon.png'
 favicon: 'assets/images/icons/icon.png'
+#baseurl: ''
 baseurl: 'https://bienvenuelisis.github.io/noir-meilleur-jekyll'
 google_analytics: 'UA-131918866-2'
 disqus: 'noir-meilleur'
