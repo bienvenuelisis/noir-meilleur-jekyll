@@ -34,6 +34,15 @@ comments: true
 
 <a target="_blank" href="whatsapp://send?text=https://noir-meilleur.digital/" class="btn btn-block btn-success">
 <i class="fa fa-share"></i>Faire connaitre !</a> 
+<br><br>
+Ne manquez jamais un <b> article </b> de notre part, abonnez-vous à notre newsletter !
+                <form action="https://send.pageclip.co/w9CZlJWX6Vaw8YQhC8CkYA8eRM9dijH8" class="pageclip-form" method="post">
+                    <input type="text" name="name" value="Ama Kwatcha" />
+                    <input type="email" name="email" value="amakwatcha@exemple.com" />
+                    <button type="submit" class="pageclip-form__submit">
+                        <span>Souscrire</span>
+                    </button>
+                </form>
 
 </div>
 </div>
