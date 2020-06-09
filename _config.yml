@@ -1,0 +1,65 @@
+# Site
+name: "Noir Meilleur"
+title: "elisis blog"
+description: "Vivre ensemble, c'est toujours possible."
+logo: 'assets/images/icons/icon.png'
+favicon: 'assets/images/icons/icon.png'
+baseurl: ''
+google_analytics: 'UA-131918866-2'
+disqus: 'noir-meilleur'
+# Disable MailChimp. Une Notifications instead.
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  elisis:
+    name: Bienvenu Kokou AGBAVON
+    avatar: "assets/images/me.jpg"
+    display_name: Bienvenu Kokou AGBAVON
+    gravatar: c9908ff7b5184aae488be00a62a75c27
+    email: elisis.author@gmail.com
+    web: https://bienvenuelisis.github.io/
+    twitter: https://twitter.com/AgbavonB
+    description: "A Java Backend Programmer. IT Ingenior. African optimist"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3022200405839941"
+adsense-data-ad-slot: "7391539126"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
