@@ -34,7 +34,8 @@ post_class: post-template
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
                         <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
                         <a target="_blank" href="{{ author.twitter }}" class="btn follow">
-                            <i class="fab fa-twitter"></i>Suivre</a>
+                            <i class="fab fa-twitter"></i> Suivre </a>
+                        <br>
                         <span class="author-description">{{ author.description }}</span>
                     </div>
                 </div>
@@ -77,6 +78,14 @@ post_class: post-template
                 {% endif %}
                 <!-- End Toc -->
                 {{content}}
+
+                <br>
+                <button style="background: #17BF63;" class="btn btn-block">
+                    <i style="padding-right: 1%;" class="icon icon-whatsapp"></i><a
+                        style="color: white;"
+                        href="whatsapp://send?text={{ page.url | absolute_url }}"
+                        data-action="share/whatsapp/share">Partager cet Article sur WhatsApp</a></button>
+                <br>
             </div>
 
             <!-- Rating -->

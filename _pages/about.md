@@ -2,7 +2,7 @@
 layout: page
 title: A propos
 permalink: /about
-comments: true
+comments: false
 ---
 
 <div class="row justify-content-between">
@@ -14,10 +14,11 @@ comments: true
     Abonnez vous ou Restez au contact sur nos Réseaux Sociaux pour ne rien manquer.
 </p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/me.jpg" alt="Personnalité du Mois" /></p>
-<h4>Personnalité du Mois</h4>
+<p hidden class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/me.jpg" alt="Personnalité du Mois" /></p>
+<p>By <a style="font-size: 24px;" href="https://bienvenuelisis.github.io/"> Bienvenu AGBAVON</a>, 
+developer on <a href="https://ecare-sante.com">E-CARE</a> platforms.</p>
 
-<p><a style="font-size: 24px;" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">Bienvenu AGBAVON</a>.</p>
+<h4 hidden>Personnalité du Mois</h4>
 
 <h4>Des questions ? Envies de nous rejoindre ?</h4>
 
@@ -30,11 +31,9 @@ comments: true
 <div class="sticky-top sticky-top-80">
 <h5>Aidez Noir Meilleur !</h5>
 
-<p>Merci de vos encouragements et de la force que vous donnez ! </p>
-
-<a target="_blank" href="whatsapp://send?text=https://noir-meilleur.digital/" class="btn btn-success">
-<i class="fab fa-whatsapp"></i>Faire connaitre !</a> 
-
+<p>Merci de vos encouragements et de la force que vous donnez, en faisant connaitre le site au plus grand nombre ! </p>
+<a target="_blank" href="whatsapp://send?text=https://noir-meilleur.digital/"><i class="fab fa-whatsapp fa-2x"></i></a>
+<a target="_blank" style="color:blue;" href="https://twitter.com/intent/tweet?text={{ site.baseurl }}"><i class="fab fa-twitter fa-2x"></i></a>
 </div>
 </div>
 </div>

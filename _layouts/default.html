@@ -63,7 +63,7 @@
         <!-- Begin Logo -->
         <a class="navbar-brand" href="{{ site.baseurl }}/">
             <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-            N_M
+            Noir Meilleur
         </a>
         <!-- End Logo -->
 
@@ -139,8 +139,9 @@
         <!-- Site Title
         ================================================== -->
         <div class="mainheading">
-            <h1 class="sitetitle">{{ site.name }}</h1>
-            <p class="lead">
+            <h1 hidden class="sitetitle">{{ site.name }}</h1>
+            <h1 class="sitetitle">{{ site.description }}</h1>
+            <p hidden class="lead">
                 {{ site.description }}
             </p>
         </div>
@@ -213,7 +214,7 @@
                 <div class="col-md-6 col-sm-6 text-center text-lg-left">
                     Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
                 </div>
-                <div class="col-md-6 col-sm-6 text-center text-lg-right">
+                <div hidden class="col-md-6 col-sm-6 text-center text-lg-right">
                     <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll
                         Theme</a> by WowThemes.net
                 </div>
