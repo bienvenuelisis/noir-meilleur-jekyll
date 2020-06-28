@@ -13,15 +13,17 @@ title: Accueil
     </div>
     <div class="row">
 
-    {% for post in site.posts %}
+        {% for post in site.posts %}
 
         {% if post.featured == true %}
 
-            {% include featuredbox.html %}
+        {% include featuredbox.html %}
 
         {% endif %}
 
-    {% endfor %}
+        {% endfor %}
+
+        {% include adslotLikePost.html %}
 
     </div>
 </section>
@@ -53,8 +55,8 @@ title: Accueil
 <!-- Pagination
 ================================================== -->
 <div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
+    <div class="pointerup"><i class="fa fa-caret-up"></i></div>
+    <span class="navigation" role="navigation">
     {% include pagination.html %}
 </span>
 </div>

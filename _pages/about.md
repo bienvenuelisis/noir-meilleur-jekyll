@@ -34,6 +34,8 @@ developer on <a href="https://ecare-sante.com">E-CARE</a> platforms.</p>
 <p>Merci de vos encouragements et de la force que vous donnez, en faisant connaitre le site au plus grand nombre ! </p>
 <a target="_blank" href="whatsapp://send?text=https://noir-meilleur.digital/"><i class="fab fa-whatsapp fa-2x"></i></a>
 <a target="_blank" style="color:blue;" href="https://twitter.com/intent/tweet?text={{ site.baseurl }}"><i class="fab fa-twitter fa-2x"></i></a>
+<br>
+<div class='onesignal-customlink-container'></div>
 </div>
 </div>
 </div>

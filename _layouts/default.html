@@ -19,6 +19,19 @@
 
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "9aa37012-0762-4f32-8a0e-86ac6b053980",
+            });
+        });
+    </script>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb95b3764933cd1"></script>
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -248,6 +261,8 @@
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb95b3764933cd1"></script>
 
 </body>
 </html>
