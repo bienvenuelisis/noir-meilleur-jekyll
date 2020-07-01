@@ -1,0 +1,60 @@
+{% if page.layout == 'post' %}
+{% assign author = site.authors[page.author] %}
+<title>{{ page.title }} | {{site.name}}</title>
+<meta name="generator" content="Jekyll v3.8.7"/>
+<meta name="author" content="{{ author.display_name }} alias {{ page.author }}"/>
+<meta property="og:title" content="{{ page.title }}"/>
+<meta property="og:locale" content="fr_FR"/>
+<meta name="description" content="{{ site.description }}"/>
+<meta property="og:description" content="{{ site.description }}"/>
+<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}"/>
+<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}"/>
+<meta property="og:site_name" content="{{ site.name }}"/>
+<meta property="og:image" content="{% if page.image contains " ://" %}{{ page.image
+}}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" />
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="{{ page.date }}"/>
+<script type="application/ld+json">
+    {
+        "headline": "{{ page.title }}",
+        "@type": "WebSite",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.baseurl }}/{{ site.logo }}"
+            }
+        },
+        "url": "{{ site.baseurl }}{{ page.url }}",
+        "name": "{{ site.name }}",
+        "description": "{{ site.description }}",
+        "@context": "https://schema.org"
+    }</script>
+{% else %}
+<title>{{ page.title }} | {{site.name}}</title>
+<meta name="generator" content="Jekyll v3.8.7"/>
+<meta property="og:title" content="{{ page.title }}"/>
+<meta property="og:locale" content="fr_FR"/>
+<meta name="description" content="{{ site.description }}"/>
+<meta property="og:description" content="{{ site.description }}"/>
+<link rel="canonical" href="{{ site.baseurl }}{{ page.url }}"/>
+<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}"/>
+<meta property="og:site_name" content="{{ site.name }}"/>
+<meta property="og:type" content="page"/>
+<script type="application/ld+json">
+    {
+        "headline": "{{ page.title }}",
+        "@type": "WebSite",
+        "publisher": {
+            "@type": "Organization",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.baseurl }}/{{ site.logo }}"
+            }
+        },
+        "url": "{{ site.baseurl }}{{ page.url }}",
+        "name": "{{ site.name }}",
+        "description": "{{ site.description }}",
+        "@context": "https://schema.org"
+    }</script>
+{% endif %}

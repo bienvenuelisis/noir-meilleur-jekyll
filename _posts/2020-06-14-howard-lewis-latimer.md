@@ -13,45 +13,50 @@ beforetoc: ""
 toc: true
 ---
 
-<p><span style="font-size: 48px;">Lewis Howard Latimer.</span></p>
-<p><span style="font-size: 18px;">Non. Thomas Edison n&#39;a pas invent&eacute; l&#39;ampoule. C&#39;est l&#39;oeuvre de Joseph Swan, qui en 1879 pr&eacute;sente une lampe &agrave; incandescence fonctionnelle, utilisant de la combustion sous vide d&#39;air d&#39;un filament de carbone. Thomas Edison, <em>le roi de voleurs</em>, qui usurpait les travaux de ces cong&eacute;n&egrave;res ou employ&eacute;s sans les mentionner, pr&eacute;senta la m&ecirc;me ann&eacute;e une ampoule avec un filament de fibre de coton carbonis&eacute;. Consid&eacute;rant que ses travaux avaient &eacute;t&eacute; vol&eacute;s, Swan poursuit Edison en justice pour r&eacute;clamer la paternit&eacute; de l&#39;invention de l&#39;ampoule &agrave;&nbsp;</span><span
-        style="background-color: transparent; font-size: 18px;">incandescence. La justice donnera raison &agrave; Joseph Swan et les deux scientifiques seront alors oblig&eacute;s de travailler ensemble pour essayer de produire &agrave; une &eacute;chelle industrielle leur invention.</span>
-</p>
-<p><span style="font-size: 18px;">Malgr&eacute; leur collaboration conjointe l&#39;ampoule de Joseph Swan et d&#39;Edison pr&eacute;sentait toujours plusieurs lacunes qui emp&ecirc;chaient sa fabrication et son utilisation &agrave; une &eacute;chelle industrielle. Primo, cette ampoule &eacute;tait tr&egrave;s lourde. Secundo sa dur&eacute;e de vie maximale &eacute;tait de 30 (trente) heures ; donc il aurait fallu la changer quasi-quotidiennement. Tertio, la combustion opacifiait rapidement le verre de l&#39;ampoule ce qui diminuait consid&eacute;rablement la vivacit&eacute; de la lumi&egrave;re.</span>
-</p>
-<p><br></p>
-<p><span style="font-size: 24px;"><em>Le p&egrave;re de l&#39;&eacute;clairage moderne.</em></span></p>
-<p><span style="font-size: 18px;">Lewis Howard Latimer na&icirc;t en 1848 dans le Massachusetts. Son p&egrave;re George Latimer, travaillait comme esclave en Virginie. Le jeune couple, George et Rebecca Latimer d&eacute;cide de fuir cet Etat du Sud des Etats Unis pour le nord o&ugrave; l&#39;esclavage &eacute;tait aboli. Ils sont arr&ecirc;t&eacute;s lors de la tentative de fuite et apr&egrave;s un proc&egrave;s houleux, oblig&eacute;s de retourner avec leur ma&icirc;tre. &nbsp;Heureusement, des abolitionnistes proposent leur rachat &agrave; leur ma&icirc;tre qui s&#39;y r&eacute;sout pour un montant de 400<span
-        style="color: rgb(32, 33, 34); font-family: sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">$. Le couple est ainsi affranchi et gr&acirc;ce &agrave; leur histoire la poursuite des esclaves en fuite est d&eacute;sormais interdit dans l&#39;Etat du&nbsp;</span><span
-        style="color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;;color: rgb(32, 33, 34); font-family: sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">Massachusetts</span><span
-        style="color: rgb(32, 33, 34); font-family: sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">.&nbsp;</span></span>
-</p>
-<p><span style="font-size: 18px;">Ayant d&eacute;m&eacute;nag&eacute; &agrave; Boston avec ses parents, Lewis suit les cours jusqu&#39;&agrave; l&#39;&acirc;ge de 10 ans puis travaille tour &agrave; tour comme tapissier, employ&eacute; de bureau dans un cabinet d&#39;avocat et matelot dans la marine (il tricha sur son &acirc;ge pour &ecirc;tre recrut&eacute;). A la fin de la Guerre de S&eacute;cession (guerre qui <span
-        style="color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">entre autres</span> mis fin &agrave; l&#39;esclavage), il retourne &agrave; Boston et est engag&eacute; dans une entreprise sp&eacute;cialis&eacute;e dans les droits de brevets (titre de propri&eacute;t&eacute; sur une invention). Il suit en parall&egrave;le des cours de dessinateur industriel. Il devient rapidement indispensable dans la r&eacute;daction des brevets et est promu Chef de service des dessins industriels et d&eacute;posa son premier brevet en 1874.</span>
-</p>
-<p><span style="font-size: 18px;">Engag&eacute; plus tard par une soci&eacute;t&eacute; distributrice de la lampe &agrave; incandescence et de l&#39;&eacute;lectricit&eacute;, Lewis Latimer va s&#39;atteler &agrave; cr&eacute;er une lampe fonctionnant &agrave; l&#39;&eacute;lectricit&eacute; et &agrave; trouver un filament dont la combustion pouvait durer ind&eacute;finiment. Il va remplacer le filament de coton d&#39;Edison par un filament de carbone.&nbsp;</span>
-</p>
-<p><span style="font-size: 18px;">C&#39;est ainsi, en tant que p&egrave;re de l&#39;ampoule &eacute;lectrique que Lewis Latimer va diriger l&#39;installation de la lumi&egrave;re &eacute;lectrique dans toute la ville de Philadelphie et &agrave; Montr&eacute;al o&ugrave; il s&#39;efforcera d&#39;apprendre le Fran&ccedil;ais pour donner directement des instructions aux ouvriers. Il sera ensuite envoy&eacute; &agrave; Londres pour y cr&eacute;er une industrie de fabrication de lampes.&nbsp;</span>
-</p>
-<p><span style="font-size: 18px;">Mais Lewis Latimer ne s&#39;arr&ecirc;ta pas l&agrave;. Avant ses travaux, lorsque une ampoule dans un syst&egrave;me &eacute;lectrique grillait toutes les autres cessaient de fonctionner. Il r&eacute;fl&eacute;chit et met en place un nouveau syst&egrave;me de c&acirc;blage, <span
-        style="color: rgb(32, 33, 34); font-family: sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">de sorte que si une ampoule grillait, les autres continuaient &agrave; &eacute;clairer</span>. Lewis Latimer est donc &eacute;galement l&#39;inventeur des <span
-        style="color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">circuits en parall&egrave;le.</span></span>
-</p>
-<p><span style="font-size: 18px;"><span
-        style="color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Ses chemins croisent celui de Thomas Edison en 1884. Il est recrut&eacute; par ce dernier en tant qu&#39;ing&eacute;nieur chercheur pour am&eacute;liorer sa lampe &agrave; incandescence (le rendre plus l&eacute;ger, et augmenter sa dur&eacute;e de vie). Cette collaboration permettra &agrave;</span> <span
-        style="color: rgb(65, 65, 65); font-family: sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Thomas Edison de d&eacute;poser un nouveau brevet diff&eacute;rent de celui de Joseph Swan pour les lampes &agrave; incandescence.</span> Il publia ses travaux dans le livre <em>Incandescent Electric Lighting : A Practical &nbsp;Description of The Edison System.</em></span>
-</p>
-<p><span style="font-size: 18px;">Lewis Latimer a &eacute;galement &eacute;t&eacute; l&#39;assistant de Graham Bell lors de l&#39;&eacute;laboration de son brevet sur le t&eacute;l&eacute;phone. A ce titre c&#39;est Lewis Latimer qui a dessin&eacute; le tout premier mod&egrave;le de T&eacute;l&eacute;phone.</span>
-</p>
-<p><span style="font-size: 18px;">En dehors de ses recherches scientifiques, Lewis Latimer &oelig;uvrait activement pour l&#39;int&eacute;gration raciale.&nbsp;</span>
-</p>
-<ul>
-    <li><span style="font-size: 18px;">Il s&#39;installa dans un quartier majoritairement blanc pour favoriser l&#39;int&eacute;gration ;</span>
-    </li>
-    <li><span style="font-size: 18px;">Il pr&eacute;senta une p&eacute;tition au maire de sa ville au sujet du manque repr&eacute;sentation des noirs &nbsp;dans les conseils scolaires.</span>
-    </li>
-</ul>
-<p><span style="font-size: 18px;">Lewis Latimer mourut &agrave; 80 ans. Aujourd&#39;hui une &eacute;cole &agrave; Brooklyn porte son nom. Son ancienne maison a &eacute;t&eacute; rachet&eacute; par le service municipal de New York. L&#39;ext&eacute;rieur est transform&eacute; en parc et l&#39;int&eacute;rieur en un mus&eacute;e &agrave; sa gloire.</span>
-</p>
-<p><span style="font-size: 18px;">Terminons sa biographie par une de ses citations :&nbsp;<em>&quot;Il est n&eacute;cessaire que nous montrions &agrave; la population de ce pays que, par notre martyre sous le fouet, par notre h&eacute;ro&iuml;sme sur le champ de bataille, par notre patience chr&eacute;tienne sous un fardeau accablant d&#39;injustice et par notre soumission aux lois du pays, nous avons prouv&eacute; que nous &eacute;tions des citoyens dignes de notre pays commun.&quot;</em><br></span>
-</p>
+
+# Lewis Howard Latimer.
+
+Non. Thomas Edison n'a pas inventé l'ampoule. C'est l'oeuvre de Joseph Swan, qui en 1879 présenta une lampe à incandescence fonctionnelle, utilisant de la combustion sous vide d'air d'un filament de carbone. Thomas Edison, *le roi de voleurs*, qui usurpait les travaux de ces congénères ou employés sans les mentionner, présenta la même année une ampoule avec un filament de fibre de coton carbonisé. Considérant que ses travaux avaient été volés, Swan poursuit Edison en justice pour réclamer la paternité de l'invention de l'ampoule à incandescence. La justice donnera raison à Joseph Swan et les deux scientifiques seront alors contraints de travailler ensemble pour essayer de produire à une échelle industrielle leur invention.
+
+Malgré leur collaboration conjointe l'ampoule de Joseph Swan et d'Edison présentait toujours plusieurs lacunes qui empêchaient sa fabrication et son utilisation à une échelle industrielle. 
+
+ - Primo, cette ampoule était très lourde. 
+ - Secundo sa durée de vie maximale était de 30 (trente) heures ; donc il aurait fallu la changer quasi-quotidiennement.
+ -  Tertio, la combustion opacifiait rapidement le verre de l'ampoule ce qui diminuait considérablement la vivacité de la lumière.
+
+
+# Le père de l'éclairage moderne
+
+Lewis Howard Latimer naît en 1848 dans le Massachusetts. Son père George Latimer, travaillait comme esclave en Virginie. Le jeune couple, George et Rebecca Latimer décide de fuir cet Etat du Sud des Etats Unis pour le nord où l'esclavage était aboli. Ils sont arrêtés lors de la tentative de fuite et après un procès houleux, obligés de retourner avec leur maître. Heureusement, des abolitionnistes proposent leur rachat à leur maître qui s'y résout pour un montant de 400$. Le couple est ainsi affranchi et grâce à leur histoire la poursuite des esclaves en fuite est désormais interdit dans l'Etat du Massachusetts.
+
+Ayant déménagé à Boston avec ses parents, Lewis suit les cours jusqu'à l'âge de 10 ans puis travaille tour à tour comme tapissier, employé de bureau dans un cabinet d'avocat et matelot dans la marine (il tricha sur son âge pour être recruté). A la fin de la Guerre de Sécession (guerre qui entre autres mis fin à l'esclavage), il retourne à Boston et est engagé dans une entreprise spécialisée dans les droits de brevets (titre de propriété sur une invention). Il suit en parallèle des cours de dessinateur industriel. Il devient rapidement indispensable dans la rédaction des brevets et est promu Chef de service des dessins industriels et déposa son premier brevet en 1874.
+
+Engagé plus tard par une société distributrice de la lampe à incandescence et de l'électricité, Lewis Latimer va s'atteler à créer une lampe fonctionnant à l'électricité et à trouver un filament dont la combustion pouvait durer indéfiniment. Il va remplacer le filament de coton d'Edison par un filament de carbone.
+
+C'est ainsi, en tant que père de l'ampoule électrique que Lewis Latimer va diriger l'installation de la lumière électrique dans toute la ville de Philadelphie et à Montréal où il s'efforcera d'apprendre le Français pour donner directement des instructions aux ouvriers. Il sera ensuite envoyé à Londres pour y créer une industrie de fabrication de lampes
+
+Mais Lewis Latimer ne s'arrêta pas là. Avant ses travaux, lorsque une ampoule dans un système électrique grillait toutes les autres cessaient de fonctionner. Il réfléchit et mit en place un nouveau système de câblage, de sorte que si une ampoule grillait, les autres continuaient à éclaire. Lewis Latimer est donc également l'inventeur des circuits en parallèle.
+
+Ses chemins croisent celui de Thomas Edison en 1884. Il est recruté par ce dernier en tant qu'ingénieur chercheur pour améliorer sa lampe à incandescence (le rendre plus léger, et augmenter sa durée de vie). Cette collaboration permettra à Thomas Edison de déposer un nouveau brevet différent de celui de Joseph Swan pour les lampes à incandescence. Il publia ses travaux dans le livre Incandescent *Electric Lighting : A Practical Description of The Edison System*.
+
+Lewis Latimer a également été l'assistant de Graham Bell lors de l'élaboration de son brevet sur le téléphone. A ce titre c'est Lewis Latimer qui a dessiné le tout premier modèle de Téléphone.
+
+En dehors de ses recherches scientifiques, Lewis Latimer œuvrait activement pour l'intégration raciale.
+
+ - [x] Il s'installa dans un quartier majoritairement blanc pour favoriser l'intégration ;
+ - [x]  Il présenta une pétition au maire de sa ville au sujet du manque représentation des noirs  dans les conseils scolaires.
+
+
+# Epilogue
+
+Lewis Latimer mourut à 80 ans. Aujourd'hui une école à Brooklyn porte son nom. Son ancienne maison a été racheté par le service municipal de New York. L'extérieur est transformé en parc et l'intérieur en un musée à sa gloire.
+
+Terminons sa biographie par une de ses citations : 
+
+> Il est nécessaire que nous montrions à la population de ce pays que,
+> par notre martyre sous le fouet, par notre héroïsme sur le champ de
+> bataille, par notre patience chrétienne sous un fardeau accablant
+> d'injustice et par notre soumission aux lois du pays, nous avons
+> prouvé que nous étions des citoyens dignes de notre pays commun.
+
+.

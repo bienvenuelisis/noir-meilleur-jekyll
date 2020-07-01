@@ -4,12 +4,14 @@ title: "elisis blog"
 description: "Vivre ensemble, c'est toujours possible."
 logo: 'assets/images/icons/icon.png'
 favicon: 'assets/images/icons/icon.png'
+#url: ''
+url: 'https://bienvenuelisis.github.io/noir-meilleur-jekyll'
 #baseurl: ''
 baseurl: 'https://bienvenuelisis.github.io/noir-meilleur-jekyll'
 google_analytics: 'UA-131918866-2'
 disqus: 'noir-meilleur'
 pageclip_url : 'https://pageclip.co/site/noir-meilleur'
-# Disable MailChimp. Une Notifications instead.
+# Disable MailChimp. Use Notifications instead.
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
@@ -33,7 +35,14 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
 # Archives
 jekyll-archives:
   enabled:
@@ -57,11 +66,11 @@ kramdown:
       line_numbers: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
+adsense: "enabled"
 adsense-data-ad-client: "ca-pub-3022200405839941"
 adsense-data-ad-slot: "7391539126"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

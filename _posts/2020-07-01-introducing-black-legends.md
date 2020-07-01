@@ -9,6 +9,8 @@ description: "Comment se construire et s'identifier en tant que noir dans la soc
 featured: true
 hidden: true
 comments: true  
+beforetoc: ""
+toc: true
 ---
 
 <p><span style="font-size: 48px;">
