@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="blog" />
     <orderEntry type="module" module-name="real-madrid-actus-jekyll" />
+    <orderEntry type="library" name="bootstrap" level="application" />
   </component>
 </module>
