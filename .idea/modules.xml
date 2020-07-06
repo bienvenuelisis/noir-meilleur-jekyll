@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../../blog/.idea/blog.iml" filepath="$PROJECT_DIR$/../../blog/.idea/blog.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/noir-meilleur-jekyll.iml" filepath="$PROJECT_DIR$/.idea/noir-meilleur-jekyll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../real-madrid-actus-jekyll/.idea/real-madrid-actus-jekyll.iml" filepath="$PROJECT_DIR$/../real-madrid-actus-jekyll/.idea/real-madrid-actus-jekyll.iml" />
     </modules>
   </component>
 </project>

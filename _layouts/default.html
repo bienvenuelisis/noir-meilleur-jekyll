@@ -122,13 +122,20 @@
                     <a class="nav-link" href="{{ site.baseurl }}/about">A propos</a>
                 </li>
 
+                {% if page.url == "/support" %}
+                <li class="nav-item active">
+                    {% else %}
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://twitter.com/AgbavonB">
-                        Twitter</a>
+                    {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/support">Notre vision</a>
                 </li>
 
+                {% if page.url == "/utip" %}
+                <li class="nav-item active">
+                    {% else %}
                 <li class="nav-item">
-                    <a target="_blank" class="nav-link" href="https://bienvenuelisis.github.io/">by elisis</a>
+                    {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/uTip">uTip ?</a>
                 </li>
 
                 {% include search-lunr.html %}

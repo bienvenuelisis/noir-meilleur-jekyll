@@ -2,7 +2,7 @@
 layout: post
 title:  "Etre noir aujourd'hui."
 author: elisis
-categories: [ scientifiques noirs revolutionnaires, juste Noir ]
+categories: [ histoire des peuples noirs, juste Noir ]
 tags: [histoire, tout_simplement_noir]
 image: assets/images/black/frames/blm.jpg
 description: "Comment se construire et s'identifier en tant que noir dans la société actuelle."

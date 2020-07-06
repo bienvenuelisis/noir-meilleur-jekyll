@@ -2,7 +2,7 @@
 layout: post
 title:  "Lewis Howard Latimer, le père de l'éclairage moderne."
 author: elisis
-categories: [ scientifiques noirs revolutionnaires ]
+categories: [ savants personnalites noirs ]
 tags: [histoire]
 image: assets/images/scientists/lewis-latimer.jpg
 description: "Lewis Howard Latimer, le père de l'éclairage moderne."
