@@ -1,7 +1,7 @@
 {
     "name": "Noir Meilleur",
     "short_name": "NoirMeilleur",
-    "start_url": "index.html?utm_source=homescreen",
+    "start_url": "/index.html?utm_source=homescreen",
     "scope" : "./",
     "icons": [
         {
