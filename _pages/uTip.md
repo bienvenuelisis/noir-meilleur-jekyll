@@ -37,7 +37,7 @@ comments: false
     de consacrer le temps nécessaire pour produire des contenus qualitatifs et réguliers.
     <br><br>
     A part les articles ici et là sur des sujets d'actualités ou pas, de nombreaux autres projets parallèles
-    sont en cours de réflexion (Interviews de personnalités noirs, Apprentissage de langues africaines, peut être 
+    sont en cours de réflexion (Interviews de personnalités noirs, Apprentissage de langues africaines, et 
     également la production de contenus vidéos).
     <br><br>
 </p>

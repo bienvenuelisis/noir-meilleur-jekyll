@@ -26,14 +26,14 @@ Et pourtant il y aurait de quoi remplir nos manuels et animer nos cours d'histoi
   
 Les enfants, les adolescents, les futurs adultes et bâtisseurs des nations noires africaines ont besoin pour se construire, pour construire leurs rêves et ambitions, de figures symboliques, auxquelles ils peuvent s'identifier. Des figures qui leur montrent que tout est possible. Qu'aucune idée n'est trop folle, aucune ambition trop démesurée, quand on y met du travail de l'abnégation et de l'ingéniosité.  
   
-Même en dehors de cette problématique, l'histoire est une discipline essentiel, car il permet de connaitre le passé, de comprendre le présent et d'envisager le futur. Malheureusement, il semblerait que nous n'avons pas mis l'énergie et l'engagement nécessaire pour prendre possession de notre passé. Car aujourd'hui les moyens et les outils sont réunis pour nous permettre de dépasser les lacunes de nos manuels d'histoire.   
+Même en dehors de cette problématique, l'histoire est une discipline essentiel, car il permet de connaitre le passé, de comprendre le présent et d'envisager le futur. Malheureusement, il semblerait que nous ne mettons pas l'énergie et l'engagement nécessaire pour prendre possession de notre passé. Car aujourd'hui les moyens et les outils sont réunis pour nous permettre de dépasser les lacunes de nos manuels d'histoire.   
   
 [Le mois de l'histoire des Noirs](https://fr.wikipedia.org/wiki/Mois_de_l%27histoire_des_Noirs), de très nombreux médias et personnages participent à la vulgarisation de l'histoire du peuple noir à la masse en vue de rétablir une partie de la vérité.   
-Cette catégorie [Savants Noirs](https://noir-meilleur.digital/categories#savants-personnalites-noirs) vient participer à cet effort collectif.  
+Cette catégorie <a target="_blank" href="{{ site.baseurl }}/categories#savants-personnalites-noirs">Savants & Personnalités Noirs</a> vient participer à cet effort collectif.  
   
 L'Afrique noire a autant besoin de ses scientifiques que de ses sportifs ; elle a autant besoin de ses artistes que de ses chercheurs , nous avons autant besoin d'économistes que de leaders de pensées et de panafricains. 
 
-En attendant que des échanges entre l'Afrique et l'occident, naissent de la diversité et de l'échange égalitaire, en lieux et places de la barbarie et des inégalités jadis observé et toujours d'actualité, [cette catégorie](%28https://noir-meilleur.digital/categories#savants-personnalites-noirs) permettra de partir à la rencontre des savants noirs d'origine Africaine ou Africains tout court  qui ont marqué l'histoire d'une empreinte indélébile. 
+En attendant que des échanges entre l'Afrique et le reste du monde, naissent de la diversité et de l'échange égalitaire, en lieux et places de la barbarie et des inégalités jadis observé et toujours d'actualité, <a target="_blank" href="{{ site.baseurl }}/categories#savants-personnalites-noirs">cette catégorie</a> permettra de partir à la rencontre des savants et de personnalités noirs d'origine Africaine ou Africains tout court  qui ont marqué l'histoire d'une empreinte indélébile. 
 
 Une prochaine catégorie, qui se consacrera à l'histoire des peuples africains avant et pendant les différents chocs civilisationnels est également en cours d'édition.
 
