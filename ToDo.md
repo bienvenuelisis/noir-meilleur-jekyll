@@ -2,11 +2,11 @@ Edit _config.yml options. If your site is in root: baseurl: ''. Also, change you
 
 Share Post Buttons error
 
-Articles correction
+~~Articles correction~~
 
 ~~Add Mailer.~~ 
 ~~Add Notification.~~
 ~~Add Sharer.~~
 ~~Add adsense & pub slots.~~
-Add dns name.
-Add Business.
+~~Add dns name.~~
+~~Add Business.~~
