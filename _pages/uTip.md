@@ -33,7 +33,8 @@ comments: false
     il est parfois nécessaire d'investir dans certaines ressources comme les livres, des personnes... ou de la promotion 
     pour atteindre l'audience souhaitée.
     <br>
-    Tout ceci est fait avec beaucoup de passions ; votre soutien est également la bienvenue pour permettre aux créateurs
+    Tout ceci est fait avec beaucoup de passions et de dévotion ; votre soutien est également le bienvenue pour permettre
+     aux créateurs
     de consacrer le temps nécessaire pour produire des contenus qualitatifs et réguliers.
     <br><br>
     A part les articles ici et là sur des sujets d'actualités ou pas, de nombreaux autres projets parallèles
