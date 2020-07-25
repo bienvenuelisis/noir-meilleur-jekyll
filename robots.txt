@@ -1,0 +1,6 @@
+# Notice: Crawling Noir Meilleur is prohibited unless you have express written.
+
+User-agent: *
+# Disallow: /ads
+
+Sitemap: https://noir-meilleur.digital/sitemap.xml
