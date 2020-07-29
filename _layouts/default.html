@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--link rel="icon" href="{{ site.baseurl }}/assets/images/icons/icon.png" -->
-
     {% include icons.html %}
 
     <title>{{ page.title }} | {{site.name}}</title>
@@ -20,6 +18,8 @@
 
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+    {% if jekyll.environment == 'production' %}
+
     <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
     <script>
         window.OneSignal = window.OneSignal || [];
@@ -30,26 +30,27 @@
         });
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131918866-2');
+    </script>
+
+    <script data-ad-client="{{site.adsense-data-ad-client}}"
+            async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+    </script>
+
+    {% endif %}
+
 </head>
-
-{% if jekyll.environment == 'production' %}
-
-<!-- change your GA id in _config.yml -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'UA-131918866-2');
-</script>
-{% endif %}
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
@@ -243,8 +244,8 @@
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
 
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb95b3764933cd1">
+<script type="text/javascript"
+        src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb95b3764933cd1">
 </script>
 
 <script src="{{ site.baseurl }}/upup.min.js"></script>
@@ -255,6 +256,7 @@
         'assets': ['/assets/css/bootstrap.css', '/assets/css/screen.css', '/assets/css/main.css',
             '/assets/js/jquery.min.js', '/assets/css/font-awesome.css', '/assets/js/mediumish.js']
     });
+
 </script>
 </body>
 </html>

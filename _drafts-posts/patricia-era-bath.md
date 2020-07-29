@@ -37,3 +37,29 @@ Comme moi, et ma très chère mère, je pense qu'on est quelques millions dans l
 Patricia Era Bath ; à sa conviction, son engagement, ses travaux et son génie.
 
 Merci Patricia.
+
+# Article en ligne : https://noir-meilleur.digital/patricia-era-bath/
+
+# Social Media Article Présentation : 
+>Ouvre les yeux, et voit.
+
+Cette phrase, Patricia Path aurait pu la prononcer des millions de fois, comme 
+une incantation.
+
+Les millions de fois, où elle, où la méthode révolutionnaire qu'elle a inventé
+ont permis de rendre la vue à des personnes majoritairement défavorisées.
+Elle a même réussi le miracle scientique de rendre la vue à une femme d'Afrique
+qui était aveugle depuis 30 ans.
+
+La vie de cette femme extraordinaire, héroîne des temps modernes, ne vaut elle
+pas la peine d'être connue ?
+
+Si. Découvrez la biographie celle qui aura _changé le visage de la médecine_.
+
+# Social Media Article Présentation : 
+
+https://noir-meilleur.digital/assets/images/scientists/patricia-era-bath/04Bath1-superJumbo.jpg
+
+https://noir-meilleur.digital/assets/images/scientists/patricia-era-bath/Dr_Patricia_Bath.jpg
+
+# Youtube Link : https://www.youtube.com/watch?v=gcE_QMTBNW4
