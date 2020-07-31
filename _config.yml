@@ -19,13 +19,14 @@ permalink: /:title/
 # Authors
 authors:
   elisis:
-    name: Kokou AGBAVON
+    name: Bienvenu Kokou AGBAVON
     avatar: "assets/images/me.jpg"
     display_name: Kokou AGBAVON
     gravatar: c9908ff7b5184aae488be00a62a75c27
     email: elisis.author@gmail.com
-    web: https://twitter.com/AgbavonB
+    web: https://bienvenuelisis.github.io/
     twitter: https://twitter.com/AgbavonB
+    social: https://www.linkedin.com/in/bienvenu-agbavon/
     description: "A Java Backend Programmer. IT Ingenior. Humanist blogger. African optimist"
 
 # Plugins
