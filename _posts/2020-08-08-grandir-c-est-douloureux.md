@@ -44,7 +44,9 @@ Que l'humain n'as d'humain que le nom.
 
 Un jour tu ne pourras plus ignorer la politique.
 
-Un jour tu suivras une émission de manière quasi quotidienne. Tu sauras précisément que tous les jours à cette dite heure, tu seras devant ton poste radio ou télé.
+Un jour tu ne seras plus maître de ton temps. 
+
+Tu auras un rendez-vous quotidien avec un programme télé ou radio.
 
 Un jour, tu devras te réconcilier avec les démarches administratives. Car il te faudra :
 
