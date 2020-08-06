@@ -59,7 +59,7 @@ Un jour tu comprendras qu'être aimé se mérite.
 
 Un jour tu seras fatigué des relations d'un soir ; ta liberté te fatiguera et te fera peur. Tu t'enfermeras dans les codes de l'unicité amoureuse : une femme, un mariage, des enfants.
 
-Un jour tu comprends qu'il faut que tu sauve la planète de tout le mal que tu ne lui a pas fait car *le réchauffement c'est la chatte à ta mère*.
+Un jour tu comprends qu'il faut que tu sauve la planète de tout le mal que tu ne lui a pas fait car <a target="_blank" href="https://www.youtube.com/watch?v=lB8uQ_zO-o8">*le réchauffement c'est la chatte à ta mère*</a> .
 
 Un jour tu ne vois tes amis qu'une fois par mois. Et vous n'avez pas le temps de vous saluer que chacun doit retourner dans son monde.
 
@@ -70,4 +70,3 @@ Et tu grandis. Et tu fais des concessions. Et tu fais des enfants.
 Et comme la génération précédente, tu leurs diras : *Votre génération fait n'importe quoi.*  
 
 Et le cycle continuera.
-
