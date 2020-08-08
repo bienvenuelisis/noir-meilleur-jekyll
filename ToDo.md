@@ -10,3 +10,5 @@ Share Post Buttons error
 ~~Add adsense & pub slots.~~
 ~~Add dns name.~~
 ~~Add Business.~~
+
+Increase size of BeforeArticleContentAds on mobile devices to avoid view issue (CSS -Media Queries, or a Script)
