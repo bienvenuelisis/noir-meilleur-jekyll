@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "{{site.adsense-data-ad-client}}",
+            enable_page_level_ads: true
+        });
+    </script>
+
+    <!--script data-ad-client="{{site.adsense-data-ad-client}}"
+            async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+    </script-->
+
+    <!--script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "{{site.adsense-data-ad-client}}",
+            enable_page_level_ads: true
+        });
+    </script-->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -41,19 +60,7 @@
 
         gtag('js', new Date());
 
-        gtag('config', 'UA-131918866-2');
-    </script>
-
-    <!--script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "{{site.adsense-data-ad-client}}",
-            enable_page_level_ads: true
-        });
-    </script-->
-
-    <script data-ad-client="{{site.adsense-data-ad-client}}"
-            async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+        gtag('config', '{{site.google_analytics}}');
     </script>
 
     {% endif %}
