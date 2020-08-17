@@ -13,7 +13,6 @@ beforetoc: # La lutte est économique.
 toc: true
 ---
 
-
 # Prologue
 Imagine qu'à ton réveil tu découvres un (1) million de dollars ($)  dans un sac posé  au chevet de ton lit avec une seule note :
 
@@ -28,7 +27,7 @@ Peut-être avais-tu envie de t’acheter une voiture, une maison ou désirais-tu
 
 1 000 000 de dollars ($) ! Ce pourrait bien être le ticket de ta vie de rêve !
 
-Plus de chance d’atteindre tes objectifs impliquerait que  l'univers te laisse plus de ces tickets. Peut-être que comme certains tu n’aurais plus jamais à travaillé et que tu te retrouverais sur les plages de  Bora Bora à siroter des pina colada en bonne compagnie.
+Plus de chance d’atteindre tes objectifs impliquerait que  l'univers te laisse plus de ces tickets. Peut-être que comme certains tu n’aurais plus jamais à travailler et que tu te retrouverais sur les plages de  Bora Bora à siroter des pina colada en bonne compagnie.
 
 **Et si tu étais la personne la plus riche du monde ?**
     
@@ -37,7 +36,7 @@ Maintenant que tu  t'es servi de ton million de dollars ($), supposons que tu ai
 
 Tu donnes tout un spectacle digne d’un séminaire de développement personnel. Sauf que là, c’en est pas vraiment un ; parce que tu n’aurais que faire de l’argent que j'aurais dépensé pour me tailler une place dans l’auditoire.
 
-Pourquoi ? Euh… parce que  si on faisait un tour sur internet, Google dirait que ce million de dollars ($), tu  pourrais non seulement m’en offrir 1000 mais au total 193.000 et devine quoi : même après cet hypothétique geste altruiste, tu  continuerais à te faire du fric parce que ta fortune c’est un peu comme si tu la tirais d’une source intarissable. 193.000 millions valent 193 milliards de dollars, soit la fortune actuelle de Jeff BEZOS,  l'homme le plus riche du monde.  Ta vie serait alors là très différente avec ce joli pactole.
+Pourquoi ? Parce que  si on faisait un tour sur internet, Google dirait que ce million de dollars ($), tu  pourrais non seulement m’en offrir 1000 mais au total 193.000 et devine quoi : même après cet hypothétique geste altruiste, tu  continuerais à te faire du fric parce que ta fortune c’est un peu comme si tu la tirais d’une source intarissable. 193.000 millions valent 193 milliards de dollars, soit la fortune actuelle de Jeff BEZOS,  l'homme le plus riche du monde.  Ta vie serait alors là très différente avec ce joli pactole.
 
 # La vraie vie
 
@@ -51,7 +50,7 @@ J’en viens au fait que l’abondance, la richesse et le succès que je t’ai 
 
 Tu te fais souvent des films car tu as vu et continues de voir de riches personnes à succès. Ces gens dont parlent beaucoup les médias, ces olympiens qui habitent le domaine des dieux, dont les secrets s’échangent à coût de formations hors de prix et qui pullulent sur les réseaux sociaux. Puis il y a spécialement ceux qui ont fait fortune très jeune, généralement pendant la vingtaine. Cela te déconcerte au point même de t’énerver ou en es-tu jalousement émerveillé. Tu te dis qu’ils ont de la chance, ou qu’ils ont rejoint un groupe d’illuminés ou bien sûr une secte. Tu en es arrivé quelque fois à penser que **l’argent c’est diabolique** ! Ou en réalité tu culpabilises du fait de ton **incapacité à en générer** et cela te révolte… et cetera… et cetera…
 
-Tu peux naturellement en venir à la conclusion toute simple que le monde est un endroit bien cruel et plutôt injuste.  Même si tu essaies de te convaincre du contraire, nous ne sommes pas tous égaux dans l’apparence. Certains naissent en Somalie, ne mangent presque pas toute leur vie et meurent à 5 ans. Toi, tu peux regarder des films érotiques quand ça te chante. D’autres naissent pauvres et finissent dans la méditerranée ou esclaves en Libye. Si un magnat du pétrole veut te faire enfermer parce qu’il n’a pas aimé ta façon de le regarder, il trouvera forcément un moyen. Les institutions ne peuvent pas garantir les droits et protéger toutes les libertés. **OXFAM**, une organisation non gouvernementale britannique a révélé qu’en 2017, 1% de la population a empoché 82% de la richesse mondiale créée. Les 99% restants n’avaient qu’à se débattre sur le marché. Selon une autre statistique, seulement 100 personnes possèdent 50% de la richesse mondiale.  La vie est remplie d’inégalités et tu es sans doute du côté de ceux qui les subissent !
+Tu peux naturellement en venir à la conclusion toute simple que le monde est un endroit bien cruel et plutôt injuste.  Même si tu essaies de te convaincre du contraire, nous ne sommes pas tous égaux dans l’apparence. Certains naissent en Somalie, ne mangent presque pas toute leur vie et meurent à 5 ans. Pour regarder des films érotiques, il te suffit de quelques clics. D’autres naissent pauvres et finissent dans la méditerranée ou esclaves en Libye. Si un magnat du pétrole veut te faire enfermer parce qu’il n’a pas aimé ta façon de le regarder, il trouvera forcément un moyen. Les institutions ne peuvent pas garantir les droits et protéger toutes les libertés. **OXFAM**, une organisation non gouvernementale britannique a révélé qu’en 2017, 1% de la population a empoché 82% de la richesse mondiale créée. Les 99% restants n’avaient qu’à se débattre sur le marché. Selon une autre statistique, seulement 100 personnes possèdent 50% de la richesse mondiale.  La vie est remplie d’inégalités et tu es sans doute du côté de ceux qui les subissent !
 
 
 -   **Ne fais pas qu’un choix, fais le bon.**
@@ -61,7 +60,7 @@ Ce précédent est un topo un peu nihiliste de la réalité! Mais comme je l’a
 
 # Fais le bon choix.
 
-Là tu de demandes bien quel est le véritable rapport avec le titre de mon article ?
+Là tu te demandes bien quel est le véritable rapport avec le titre de mon article ?
 
 Et si je te disais que ce que tu liras ici changerait ta vision des choses et cela pour le mieux  ?
 
@@ -87,7 +86,6 @@ Alors pose-toi les bonnes questions ? Est-ce que  tu restes là à attendre la
 
 # Epilogue
 
-La paréidolie est un stimulus visuel qui vous rappelle  une chose que vous connaissez déjà, un peu comme un nuage en forme crâne humain. La première partie de ma série d'article s’apparente à une  forme de paréidolie du fait qu'elle rappelle la nécessité de posséder  l'argent, un sentiment que vous connaissez déjà.
+La paréidolie est un stimulus visuel qui vous rappelle  une chose que vous connaissez déjà, un peu comme un nuage en forme crâne humain. La première partie de ma série d'articles s’apparente à une  forme de paréidolie du fait qu'elle rappelle la nécessité de posséder  l'argent, un sentiment que vous connaissez déjà.
 
-Dans mon prochain article nous allons parler du marché et vous allez comprendre pourquoi et comment l'argent a été créé, quel son but et qu'en fait l'argent est une technologie comme une autre.
-
+Dans mon prochain article nous parlerons du marché et vous comprendrez pourquoi et comment l'argent a été inventé, quel en est le but et qu'en fait l'argent de toute évidence est bel et bien une technologie.
