@@ -28,6 +28,18 @@ authors:
     twitter: https://twitter.com/AgbavonB
     social: https://www.linkedin.com/in/bienvenu-agbavon/
     description: "A Java Backend Programmer. IT Ingenior. Humanist blogger. African optimist"
+  gerha:
+    name: Gérard D'férimba BAMANA
+    avatar: "assets/images/gerha.jpeg"
+    display_name: Gérard D. BAMANA
+    email: gerardbamana@outlook.com
+    web: https://www.instagram.com/gerardbamana/
+    social: https://www.instagram.com/gerardbamana/
+    twitter: https://twitter.com/gerardbamana
+    description: "Outsider."
+
+
+
 
 # Plugins
 plugins:

@@ -6,8 +6,8 @@ categories: [ reflexions, developement personnel ]
 tags: [pensees]
 image: assets/images/toughts/lazy.gif
 description: "Comment combattre la flemme et booster ses performances."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true  
 ---
 
