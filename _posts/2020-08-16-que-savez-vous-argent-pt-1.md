@@ -19,8 +19,6 @@ Imagine qu'à ton réveil tu découvres un (1) million de dollars ($)  dans un
 > « Fais-en bon usage ! »  
 > PS : L'univers
 
-On peut dire que la chance vient de te faire un suçon qui va scintiller !
-
 # Vie de rêve ?
 
 Peut-être avais-tu envie de t’acheter une voiture, une maison ou désirais-tu te marier ou encore investir dans une affaire ou un commerce. Ce sac servirait bien à te lancer dans la vie.
@@ -89,3 +87,5 @@ Alors pose-toi les bonnes questions ? Est-ce que  tu restes là à attendre la
 La paréidolie est un stimulus visuel qui vous rappelle  une chose que vous connaissez déjà, un peu comme un nuage en forme crâne humain. La première partie de ma série d'articles s’apparente à une  forme de paréidolie du fait qu'elle rappelle la nécessité de posséder  l'argent, un sentiment que vous connaissez déjà.
 
 Dans mon prochain article nous parlerons du marché et vous comprendrez pourquoi et comment l'argent a été inventé, quel en est le but et qu'en fait l'argent de toute évidence est bel et bien une technologie.
+
+
