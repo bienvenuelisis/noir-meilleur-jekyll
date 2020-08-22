@@ -51,10 +51,9 @@
                                 <span class="author-meta">
                                 <span class="post-name"><a target="_blank" href="{{ author.web }}">{{ author.display_name }}</a></span><br/>
                                 {% endif %}
-                                <span class="post-date">{{ post.date | date_to_string }}</span>
                                     <span class="post-date">
-                                    {% assign m = page.date | date: "%-m" %}
-                                    {{ page.date | date: "%-d" }}
+                                    {% assign m = post.date | date: "%-m" %}
+                                    {{ post.date | date: "%-d" }}
                                     {% case m %}
                                       {% when '1' %}Janvier
                                       {% when '2' %}Février
@@ -69,7 +68,7 @@
                                       {% when '11' %}Novembre
                                       {% when '12' %}Décembre
                                     {% endcase %}
-                                    {{ page.date | date: "%Y" }}
+                                    {{ post.date | date: "%Y" }}
                                 </span>
                                 </span>
                                 <span class="post-read-more"><a href="{{ site.baseurl }}{{ post.url }}"

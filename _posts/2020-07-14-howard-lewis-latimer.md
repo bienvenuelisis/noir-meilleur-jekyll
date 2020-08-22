@@ -6,8 +6,8 @@ categories: [ savants personnalites noirs ]
 tags: [histoire]
 image: assets/images/scientists/lewis-latimer.jpg
 description: "Lewis Howard Latimer, le père de l'éclairage moderne."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true  
 beforetoc: # Savants & Personnalités Noires -  #1 : Lewis Howard Latimer.
 toc: true

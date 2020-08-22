@@ -8,8 +8,8 @@ image: assets/images/stock/money-2724241_960_720.webp
 description: "La vie, est un éternel recommencement. Ce qui s'est passé hier, se reproduira aujourd'hui, demain, et indéfiniment.
               Et il existe des étapes qui agissent comme des électro-chocs, pour vous rappeler que oui : *Votre douce enfance et votre insouciance adolescence sont finis.* 
               Et c'est compliqué. Très compliqué. "
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true  
 beforetoc: # Article Hors-Série.
 toc: false
