@@ -1,7 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://noir-meilleur.digital/</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
@@ -10,22 +10,17 @@
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://noir-meilleur.digital/support</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
         <loc>https://noir-meilleur.digital/categories</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://noir-meilleur.digital/tags</loc>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://noir-meilleur.digital/utip</loc>
+        <loc>https://noir-meilleur.digital/contact</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
