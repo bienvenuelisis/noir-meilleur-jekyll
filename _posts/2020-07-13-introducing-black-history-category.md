@@ -6,8 +6,8 @@ categories: [ histoire des peuples noirs, savants personnalites noirs, juste Noi
 tags: [histoire, tout_simplement_noir]
 image: assets/images/africa/africa_1890.jpg
 description: "Comment se construire et s'identifier en tant que noir dans la société actuelle."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true  
 beforetoc: ""
 toc: false

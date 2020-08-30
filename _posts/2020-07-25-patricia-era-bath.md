@@ -6,8 +6,8 @@ categories: [ savants personnalites noirs ]
 tags: [histoire]
 image: assets/images/scientists/patricia-era-bath/04Bath1-superJumbo.jpg
 description: "Patricia Era Bath, pionnière et première chirurgienne afro-américaine."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: true  
 beforetoc: # Savants & Personnalités Noires -  #2 : Patricia Era Bath.
 toc: true
