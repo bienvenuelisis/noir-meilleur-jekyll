@@ -78,7 +78,7 @@ post_class: post-template
                 {% endif %}
                 <!-- End Toc -->
 
-                {% include BeforeArticleContentAds.html %}
+                {% include ads-index-between-featured-all-articles.html %}
 
                 {{content}}
 
@@ -90,6 +90,8 @@ post_class: post-template
                         data-action="share/whatsapp/share">Partager cet Article sur WhatsApp</a></button>
                 <br>
             </div>
+
+            {% include ads-index-between-featured-all-articles.html %}
 
             <!-- Rating -->
             {% if page.rating %}

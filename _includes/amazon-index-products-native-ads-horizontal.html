@@ -1,0 +1,9 @@
+{% if include.count == 1 %}
+    {% assign adIndex = site.amazonAds[include.type].tab | sample %}
+    {% include amazon-native-ads/{{ include.type }}/{{ adIndex }}.html %}<br>
+{% else %}
+    {% assign adsIndex = site.amazonAds[include.type].tab | sample: include.count %}
+    {% for adIndex in adsIndex %}
+        {% include amazon-native-ads/{{ include.type }}/{{ adIndex }}.html %}<br>
+    {% endfor %}
+{% endif %}

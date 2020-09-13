@@ -48,7 +48,13 @@ authors:
     description: "Je ne me connais pas encore assez. Alors dites moi ! Comment me décririez vous ?"
 
 
-
+amazonAds:
+  nm:
+    tab: [1, 2, 3, 4, 5]
+  books:
+    tab: [1, 2]
+  services:
+    tab: [1, 2, 3]
 
 # Plugins
 plugins:
