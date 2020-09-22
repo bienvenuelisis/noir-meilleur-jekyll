@@ -16,7 +16,9 @@ toc: false
 
 _L’Histoire est une suite de mensonges sur lesquels on est d’accord, **ou presque**_.
 
-L'Histoire bien qu'étant une science, a longtemps été, et est toujours orientée dans un sens par ceux qui l'écrivent en vue de servir leurs desseins. Voici donc la première partie de cette catégorie d'articles, [Mensonges historiques](/categories#mensonges-historiques). Dans cet article partons à la découverte de six faits communément admis, ou enseignés, mais qui sont faux. 
+L'Histoire bien qu'étant une science, a longtemps été, - et l'est encore partiellement aujourd'hui - orientée dans un sens par ceux qui l'écrivent en vue de servir leurs desseins. Aujourd'hui ce rôle est joué non plus par les historiens, mais par les médias qui déforment continuellement la mémoire collective des peuples.
+ 
+Ceci est la première partie d'une catégorie d'articles, les [Mensonges historiques](/categories#mensonges-historiques). Dans cet article partons à la découverte de cinq faits communément admis, ou enseignés, mais qui sont faux. 
 
 --- 
 
@@ -65,7 +67,7 @@ L'ancêtre de notre système numérique fit son apparition en Inde, au IV° siè
 Ils utilisaient des numérotations très avancées pour désigner les nombres entiers, les décimales et les résultats des opérations entre ces nombres. Les représentations commençaient par 1 et se terminaient à 9 ; le chiffre 0 n'était pas représenté.
 
 Les chiffres indiens firent leur apparition au Proche-Orient au milieu du VII° siècle avant Jésus Christ, mais ne se diffusèrent dans le monde musulman qu'à compter du IX° siècle. 
-Le mathématicien  _Al Khwarismi_, répandit ses travaux à partir de cette numérotation dans le monde musulman.
+Le mathématicien arabe,  _Al Khwarismi_, répandit ses travaux à partir de cette numérotation dans le monde musulman.
 
 En Europe, l'on utilisait encore les chiffres romains.
 Ces caractères archaïques, difficiles à utiliser, rendaient impossibles les calculs trop complexes. Au contraire, les nouveaux chiffres (qui furent surnommé  _chiffres arabes_  en Europe), plus faciles à utiliser, furent rapidement adoptés par les marchands et les banquiers.
@@ -77,7 +79,7 @@ Au final, les chiffres arabes parvinrent à supplanter définitivement les chiff
 
 5 - Christophe Colomb a découvert l'Amérique.
 
-Christophe Colomb n'a bien évidement pas découvert l'Amérique.
+Christophe Colomb n'a bien évidemment pas découvert l'Amérique.
 
 De nombreuses personnes firent le voyage avant lui, le précédant environ d'un demi millénaire...
 
