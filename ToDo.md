@@ -7,8 +7,11 @@ Share Post Buttons error
 ~~Add Mailer.~~ 
 ~~Add Notification.~~
 ~~Add Sharer.~~
-~~Add adsense & pub slots.~~
+~~Add adsense & pub slots.~~~~~~
 ~~Add dns name.~~
 ~~Add Business.~~
+Quizz
+Sondages
+Vidéos
 
 Increase size of BeforeArticleContentAds on mobile devices to avoid view issue (CSS -Media Queries, or a Script)
