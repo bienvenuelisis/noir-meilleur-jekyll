@@ -6,7 +6,7 @@
 
     <meta name="inxysmart-verification" content="285a25c17f351708754cdb6d56f3962e">
 
-    <meta name="coinzilla" content="88d1a0c49fe5162f0b5dcef27fd6035a" />
+    <meta name="coinzilla" content="88d1a0c49fe5162f0b5dcef27fd6035a"/>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -50,7 +50,8 @@
 
         gtag('config', '{{site.google_analytics}}');
     </script>
-    <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101274545);</script>
+    <script>var clicky_site_ids = clicky_site_ids || [];
+    clicky_site_ids.push(101274545);</script>
     <script async src="//static.getclicky.com/js"></script>
     {% endif %}
 
@@ -106,6 +107,14 @@
                     <a class="nav-link" href="{{ site.baseurl }}/categories">Catégories</a>
                 </li>
 
+                {% if page.url == "/quizz" %}
+                <li class="nav-item active">
+                    {% else %}
+                <li class="nav-item">
+                    {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/quizz">Quizz</a>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" target="_blank"
                        href="https://news.noir-meilleur.digital/">News</a>
@@ -140,7 +149,7 @@
                     {% else %}
                 <li class="nav-item">
                     {% endif %}
-                    <a class="nav-link" href="{{ site.baseurl }}/utip">uTip ?</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/utip">Soutenir</a>
                 </li>
 
                 {% include search-lunr.html %}
@@ -155,10 +164,20 @@
 </nav>
 <!-- End Navigation
 ================================================== -->
-
 <div class="site-content">
 
     <div class="container">
+
+        {% if page.url != "/quizz" %}
+        <div style="border-radius: 15px; background-color: #363636;">
+            <h5 style="color: white; justify-content: center; text-align: center; margin-bottom: -5px; padding-top: 9px;">
+                Nouveauté : Découvrez et Répondez à des <a href="{{ site.baseurl }}/quizz">Quizz</a>
+                sur l'Afrique, son Passé, son Présent, et son Futur.
+            </h5>
+            <br>
+        </div>
+        {% endif %}
+
 
         <!-- Site Title
         ================================================== -->
@@ -268,7 +287,9 @@
 
 </script>
 
-<script type="text/javascript"> var infolinks_pid = 3285304; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+<script type="text/javascript"> var infolinks_pid = 3285304;
+var infolinks_wsid = 0; </script>
+<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 
 </body>
 </html>

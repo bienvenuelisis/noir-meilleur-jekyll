@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta name="inxysmart-verification" content="285a25c17f351708754cdb6d56f3962e">
+
+    <meta name="coinzilla" content="88d1a0c49fe5162f0b5dcef27fd6035a"/>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% include icons.html %}
+
+    <title>Quizz : {{ page.title }} | {{site.name}}</title>
+
+    {% include seo.html %}
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.css">
+
+    <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
+
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/elisis/all.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/elisis/storage.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/elisis/location.min.js"></script>
+
+    <!-- Surveys -->
+    <script src="{{ site.baseurl }}/assets/elisis/survey/survey-fr.jquery.js"></script>
+
+    <link href="{{ site.baseurl }}/assets/elisis/survey/survey.min.css" type="text/css" rel="stylesheet"/>
+
+    <link href="{{ site.baseurl }}/assets/elisis/survey/modern.min.css" type="text/css" rel="stylesheet"/>
+
+    {% if jekyll.environment == 'production' %}
+    <script data-ad-client="ca-pub-3022200405839941"
+            async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function () {
+            OneSignal.init({
+                appId: "9aa37012-0762-4f32-8a0e-86ac6b053980",
+            });
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', '{{site.google_analytics}}');
+    </script>
+    <script>var clicky_site_ids = clicky_site_ids || [];
+    clicky_site_ids.push(101274545);</script>
+    <script async src="//static.getclicky.com/js"></script>
+    {% endif %}
+
+</head>
+
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="default {{layout}}">
+<!-- defer loading of font and font awesome -->
+<noscript id="deferred-styles">
+    <link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            {{ site.name }}
+        </a>
+        <!-- End Logo -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+
+            <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/index.html">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/categories">Catégories</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ site.baseurl }}/quizz">Quizz</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank"
+                       href="https://news.noir-meilleur.digital/">News</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/tags">Tags</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/about">A propos</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/support">Notre vision</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/utip">Soutenir</a>
+                </li>
+
+                {% include search-lunr.html %}
+
+            </ul>
+
+            <!-- End Menu -->
+
+        </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+    <div class="container">
+
+        <!-- Site Title
+        ================================================== -->
+        <div class="mainheading">
+            <h1 hidden class="sitetitle">{{ site.name }}</h1>
+            <h1 class="sitetitle">{{ site.description }}</h1>
+            <p hidden class="lead">
+                {{ site.description }}
+            </p>
+        </div>
+
+        <!-- Content
+        ================================================== -->
+        <div class="main-content">
+            <section>
+                <div class="section-title">
+                    <h2><span>Quizz : {{ page.title }}</span></h2>
+                </div>
+
+                <div class="row justify-content-between">
+                    <div class="col-lg-10 offset-lg-1">
+                        <br>
+                        <hr>
+                        <div id="quizz-survey-container"></div>
+                        {% include loader.html %}
+                    </div>
+                </div>
+
+                {% if page.comments == true %}
+
+                <br>
+                <hr>
+                <div id="comments" class="row mb-5">
+                    <div class="col-lg-10 offset-lg-1">
+                        {% include disqus.html %}
+                    </div>
+                </div>
+
+                {% endif %}
+            </section>
+        </div>
+
+        <!-- Alert button
+    ================================================== -->
+
+    </div>
+
+    <!-- Categories Jumbotron
+    ================================================== -->
+    <div class="jumbotron fortags" style="background-image: url(/assets/images/africa/africa-cover-brillant.jpg);">
+        <div class="d-md-flex h-100">
+            <div class="col-md-4 transpdark align-self-center text-center h-100">
+                <div class="d-md-flex align-items-center justify-content-center h-100">
+                    <h2 class="d-md-block align-self-center py-1 font-weight-light">Parcourir <span
+                            class="d-none d-md-inline">→</span></h2>
+                </div>
+            </div>
+            <div class="col-md-8 p-5 align-self-center text-center">
+                {% assign categories_list = site.categories %}
+                {% if categories_list.first[0] == null %}
+                {% for category in categories_list %}
+                <a class="mt-1 mb-1"
+                   href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{
+                    category | camelcase }} ({{ site.tags[category].size }})</a>
+                {% endfor %}
+                {% else %}
+                {% for category in categories_list %}
+                <a class="mt-1 mb-1"
+                   href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{
+                    category[0] | camelcase }} ({{ category[1].size }})</a>
+                {% endfor %}
+                {% endif %}
+                {% assign categories_list = nil %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Begin Footer
+    ================================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                    Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
+                </div>
+                <div class="col-md-6 col-sm-6 text-center text-lg-right"> by
+                    <a target="_blank" href="https://bienvenuelisis.github.io/">
+                        bienvenuelisis
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer
+    ================================================== -->
+
+</div> <!-- /.site-content -->
+{% include quizz-script.html theme=page.theme surveyId=page.surveyId ResultId=page.ResultId
+surveyPostId=page.surveyPostId maxTimeToFinish=page.maxTimeToFinish
+maxTimeToFinishPage=page.maxTimeToFinishPage responsePage=page.responsePage
+cookie=page.cookie %}
+<!-- Scripts
+================================================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+<script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
+
+{% if site.lazyimages == "enabled" %}
+<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+{% endif %}
+
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+{% if page.layout == 'post' %}
+<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+{% endif %}
+
+<script type="text/javascript"
+        src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb95b3764933cd1">
+</script>
+</body>
+</html>

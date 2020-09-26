@@ -1,0 +1,71 @@
+<script type="application/javascript">
+    $(document).ready(function (e) {
+        const quizzSurveyContainer = $("#quizz-survey-container");
+
+        const loaderSpinner = $('#final_loader');
+
+        function hideLoader() {
+            loaderSpinner.prop('hidden', true);
+        }
+
+        function showLoader() {
+            loaderSpinner.prop('hidden', false);
+        }
+
+        function goToResponses() {
+            storageSet('{{ include.cookie }}', true);
+            window.location.href = '{{ include.responsePage }}';
+        }
+
+        $('body').on('click', '#get-response', function () {
+            goToResponses();
+        })
+
+        Survey.StylesManager.applyTheme("{{ include.theme }}");
+        Survey.surveyStrings.savingData = "S'il vous plaît, attendez. Nous validons et sauvegardons votre réponse.";
+        Survey.surveyStrings.savingDataError = "Une erreur s'est produit lors du traitement de vos réponses.";
+        Survey.surveyStrings.savingDataSuccess = "Quizz terminée !";
+        Survey.surveyStrings.saveAgainButton = "Essayez une fois de plus de soumettre, vos réponses.";
+
+        let SurveyIds = {
+            surveyId: '{{ include.surveyId }}',
+            ResultId: '{{ include.ResultId }}',
+            surveyPostId: '{{ include.surveyPostId }}'
+        };
+
+        initSurvey(SurveyIds);
+
+        function initSurvey(surveyModelInfosIds) {
+            let surveyModel = new Survey.Model(surveyModelInfosIds);
+            hideLoader();
+            quizzSurveyContainer.Survey({model: surveyModel});
+            surveyModel.onComplete
+                .add(function (result) {
+                    sendDataToServerAndDatabase(result);
+                });
+        }
+
+        function sendDataToServerAndDatabase(surveyResults) {
+            let surveyResultsString = JSON.stringify(surveyResults.data);
+            sendDataToSurveyService(surveyResultsString);
+            console.log(surveyResults);
+            console.log(surveyResultsString);
+        }
+
+        function sendDataToSurveyService(surveyResultsString) {
+            $.post("https://api.surveyjs.io/public/Survey/post", {
+                    PostId: SurveyIds.surveyPostId,
+                    SurveyResult: surveyResultsString,
+                    ClientId: getSessionLocalStorageInit(),
+                    IsPartialCompleted: true
+                }
+            ).done(function () {
+
+            }).fail(function () {
+
+            }).always(function () {
+
+            });
+        }
+    })
+</script>

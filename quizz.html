@@ -1,0 +1,21 @@
+---
+layout: page
+title: Tous les Quizz
+permalink: /quizz
+comments: false
+---
+
+<!-- Quizz -->
+<section class="recent-posts">
+
+    <div class="row listrecent">
+
+        {% for post in site.posts %}
+            {% if post.categories contains "quizz" %}
+                {% include quizz-element.html %}
+            {% endif %}
+        {% endfor %}
+
+    </div>
+
+</section>
