@@ -16,7 +16,7 @@ toc: true
 
 
 
-Dans le monde actuel, tout tourne autour de l’argent. Se loger, se nourrir, se vêtir, se soigner ; tout cela nécessite des moyens financiers. Du coup ne pas posséder de l’argent nous mets dans une position très inconfortable. Il est de ce fait très important de savoir comment gagner de l’argent ; en d’autres termes s’assurer un revenu (l’objet de cet article) et comment l’utiliser à bon escient pour ne pas s’en mordre les doigts après.
+Dans le monde actuel, tout tourne autour de l’argent. Se loger, se nourrir, se vêtir, se soigner ; tout cela nécessite des moyens financiers. Du coup ne pas posséder de l’argent nous met dans une position très inconfortable. Il est de ce fait très important de savoir comment gagner de l’argent ; en d’autres termes s’assurer un revenu (l’objet de cet article) et comment l’utiliser à bon escient pour ne pas s’en mordre les doigts après.
 
 Pour commencer, l’on doit savoir qu’il existe plusieurs sortes de revenus :
 
@@ -57,4 +57,5 @@ Ceci dit, une chose est de gagner de l’argent et toute une autre est de savoir
 
 
 <a id="Thami_Kabbaj_Agir" href="https://www.amazon.fr/AGIR-virer-patron-quitter-banquier/dp/2212571321/ref=as_li_ss_il?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=225K8BS6P45JB&dchild=1&keywords=agir+thami+kabbaj&qid=1601180915&sprefix=agir+,aps,1093&sr=8-1&linkCode=li3&tag=noirmeilleur-21&linkId=86d18dfa8910811444d79ca295986884&language=fr_FR" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=2212571321&Format=_SL250_&ID=AsinImage&MarketPlace=FR&ServiceVersion=20070822&WS=1&tag=noirmeilleur-21&language=fr_FR" ></a><img src="https://ir-fr.amazon-adsystem.com/e/ir?t=noirmeilleur-21&language=fr_FR&l=li3&o=8&a=2212571321" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 
