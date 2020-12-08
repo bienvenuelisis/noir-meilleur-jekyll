@@ -8,7 +8,7 @@ favicon: 'assets/images/icons/icon.png'
 url: 'https://noirmeilleur.com'
 #baseurl: ''
 baseurl: 'https://noirmeilleur.com'
-google_analytics: 'UA-131918866-2'
+google_analytics: 'G-1XSX4CZHBN'
 disqus: 'noir-meilleur'
 pageclip_url : 'https://pageclip.co/site/noir-meilleur'
 # Disable MailChimp. Use Notifications instead.

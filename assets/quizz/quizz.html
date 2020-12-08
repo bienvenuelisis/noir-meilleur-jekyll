@@ -1,0 +1,802 @@
+<div id="final_loader">
+    <img style="padding-right: 40%; padding-left: 40%;" class="center animated"
+         src="/assets/quizz/loaders/svg/spinning-circles.svg"/>
+</div>
+
+<div hidden class="row" id="analysis-symptoms-survey-container-parent">
+
+    <form method="post" enctype="multipart/form-data" style="color: black; !important;"
+          id="analysis-symptoms-survey-container"
+          class="col-lg-10 offset-lg-0">
+
+        <label style="color: darkred; padding-bottom: 9px;" id="label-error-query-empty-fields"
+               class="form-check-label">
+        </label>
+
+        <div hidden id="preambuleStep" class="survey-step animated">
+            <p style="padding: 36px; font-size: 16px; background-color: lightgrey;">
+                Cet outil est fourni à titre gratuit, uniquement à des fins d’évaluation de votre état
+                de santé général par des questions courtes et pertinentes.
+                <br>
+                Son but est de contribuer à
+                désengorger la prise en charge des personnes, par les services d’urgences, pendant la
+                pandémie du Coronavirus COVID-19 au Togo.
+                <br><br>
+                Pour la pertinence des résultats de ce Test, il est primordial de renseigner vos réelles
+                symptômes et informations.
+                <br><br>
+                Ce test, même s'il a été conçu par des professionnels de la santé, est à titre indicatif
+                et ne saurait être substitué à un diagnostic médical.
+            </p>
+        </div>
+        <div hidden id="feverStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Pensez-vous avoir ou avoir eu de la fièvre ces derniers jours (frissons, sueurs,
+                    sensation de chaleur) ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="feverRadio"
+                           id="feverRadioTrue" value="true">
+                    <label class="form-check-label" for="feverRadioTrue">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="feverRadio"
+                           id="feverRadioFalse" value="false">
+                    <label class="form-check-label" for="feverRadioFalse">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="feverDegreeCelsiusStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez vous utiliser un Thermomètre ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="useThermometerRadio"
+                           id="useThermometerRadioTrue" value="true">
+                    <label class="form-check-label" for="useThermometerRadioTrue">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="useThermometerRadio"
+                           id="useThermometerRadioFalse" value="false">
+                    <label class="form-check-label" for="useThermometerRadioFalse">Non</label>
+                </div>
+            </div>
+
+            <div hidden id="feverDegreeCelsiusQuestion" class="form-group">
+                <label class="survey-question">
+                    Entrez votre Température corporelle (la plus élevée mesurée récemment).
+                </label>
+                <div class="input-group">
+                    <input id="feverDegreeCelsiusInput" class="form-control col-lg-6 form-control-lg"
+                           type="number" placeholder="37,0">
+                    <div class="input-group-append">
+                        <span class="input-group-text">° Celsius</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div hidden id="coughStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle
+                    ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="coughRadio"
+                           id="coughRadioTrue" value="true">
+                    <label for="coughRadioTrue" class="form-check-label">Beaucoup</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="coughRadio"
+                           id="coughRadioFalse_Half" value="false_half">
+                    <label for="coughRadioFalse_Half" class="form-check-label">Un peu</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="coughRadio"
+                           id="coughRadioFalse" value="false">
+                    <label for="coughRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="looseTasteSmellStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Ces derniers jours, avez-vous noté une forte diminution ou perte de votre goût
+                    (agueusie) ou de votre odorat (ansmie) ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="looseTasteSmellRadio"
+                           id="looseTasteSmellRadioTrue" value="true">
+                    <label for="looseTasteSmellRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="looseTasteSmellRadio"
+                           id="looseTasteSmellRadioFalse" value="false">
+                    <label for="looseTasteSmellRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="soreThroatStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Ces derniers jours, avez-vous un mal de gorge ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="soreThroatRadio"
+                           id="soreThroatRadioTrue" value="true">
+                    <label for="soreThroatRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="soreThroatRadio"
+                           id="soreThroatRadioFalse" value="false">
+                    <label for="soreThroatRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="chestPainStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous des douleurs au niveau du thorax ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="chestPainRadio"
+                           id="chestPainRadioTrue" value="true">
+                    <label for="chestPainRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="chestPainRadio"
+                           id="chestPainRadioFalse" value="false">
+                    <label for="chestPainRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="diarrheaStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Ces dernières 24 heures, avez-vous de la diarrhée ? (Avec au moins 3 selles molles
+                    dans une même journée.)
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diarrheaRadio"
+                           id="diarrheaRadioTrue" value="true">
+                    <label for="diarrheaRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diarrheaRadio"
+                           id="diarrheaRadioFalse" value="false">
+                    <label for="diarrheaRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="puffinessStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous des difficultés à respirer ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="puffinessRadio"
+                           id="puffinessRadioTrue" value="true">
+                    <label for="puffinessRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="puffinessRadio"
+                           id="puffinessRadioFalse" value="false">
+                    <label for="puffinessRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="shortOfBreathStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Etes-vous essoufflé à l’effort ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="shortOfBreathRadio"
+                           id="shortOfBreathRadioFalse_Half" value="false_half">
+                    <label for="shortOfBreathRadioFalse_Half" class="form-check-label">Effort intense
+                        (Activité physique, course rapide...)</label>
+                </div>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="shortOfBreathRadio"
+                           id="shortOfBreathRadioTrue" value="true">
+                    <label for="shortOfBreathRadioTrue" class="form-check-label">Effort léger (Monter
+                        les escaliers, marche
+                        rapide...)</label>
+                </div>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="shortOfBreathRadio"
+                           id="shortOfBreathRadioFalse" value="false">
+                    <label for="shortOfBreathRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="breathLessStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Etes-vous essoufflé au repos ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="breathLessRadio"
+                           id="breathLessRadioTrue" value="true">
+                    <label for="breathLessRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="breathLessRadio"
+                           id="breathLessRadioFalse" value="false">
+                    <label for="breathLessRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="bodyAchesStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous des courbatures en dehors des douleurs musculaires liées à une activité
+                    sportive intense ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="bodyAchesRadio"
+                           id="bodyAchesRadioTrue" value="true">
+                    <label for="bodyAchesRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="bodyAchesRadio"
+                           id="bodyAchesRadioFalse" value="false">
+                    <label for="bodyAchesRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="tiredStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Ces derniers jours, ressentez-vous une fatigue inhabituelle ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="tiredRadio"
+                           id="tiredRadioTrue" value="true">
+                    <label class="form-check-label" for="tiredRadioTrue">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="tiredRadio"
+                           id="tiredRadioFalse" value="false">
+                    <label class="form-check-label" for="tiredRadioFalse">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="pauseStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Cette fatigue vous oblige-t-elle à vous reposer plus de la moitié de la
+                    journée ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pauseRadio"
+                           id="pauseRadioTrue" value="true">
+                    <label for="pauseRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pauseRadio"
+                           id="pauseRadioFalse" value="false">
+                    <label for="pauseRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="cantFoodDrinkStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Êtes vous dans l'impossibilité de vous alimenter ou de boire DEPUIS 24
+                    HEURES OU
+                    PLUS ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="cantFoodDrinkRadio"
+                           id="cantFoodDrinkRadioTrue" value="true">
+                    <label for="cantFoodDrinkRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="cantFoodDrinkRadio"
+                           id="cantFoodDrinkRadioFalse" value="false">
+                    <label for="cantFoodDrinkRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="ageStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Quel est votre âge ? (Ceci, afin de calculer un facteur de risque
+                    spécifique.)
+                </label>
+                <br><br>
+                <div class="input-group">
+                    <input id="ageInput" class="form-control col-lg-4 form-control-lg"
+                           type="number">
+                    <div class="input-group-append">
+                        <span class="input-group-text">ans</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div hidden id="growsTeethStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    L'enfant ou le bébé est t-il entrain de pousser ses dents ?
+                    (Cela pourrait faire augmenter sa température
+                    corporelle sans aucun lien avec la maladie à Coronavirus COVID-19 ou d'autres
+                    maladies.)
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="growsTeethRadio"
+                           id="growsTeethRadioTrue" value="true">
+                    <label for="growsTeethRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="growsTeethRadio"
+                           id="growsTeethRadioFalse" value="false">
+                    <label for="growsTeethRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="heightStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Quel est votre taille ? (Afin de calculer l’indice de masse corporelle qui
+                    est un
+                    facteur influençant le risque de complications de l’infection.)
+                </label>
+                <br><br>
+                <div class="input-group">
+                    <input id="heightInput" class="form-control col-lg-4 form-control-lg"
+                           type="number">
+                    <div class="input-group-append">
+                        <span class="input-group-text">cm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div hidden id="weightStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Quel est votre poids ? Afin de calculer l’indice de masse corporelle qui est
+                    un facteur influençant le risque de complications de l’infection.
+                </label>
+                <br><br>
+                <div class="input-group">
+                    <input id="weightInput" class="form-control col-lg-4 form-control-lg"
+                           type="number">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Kg</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div hidden id="genderStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Je suis : (Ceci, afin d'ajuster les questions suivantes.)
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="genderRadio"
+                           id="genderRadiomale" value="male">
+                    <label class="form-check-label">Un homme</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="genderRadio"
+                           id="genderRadiofemale" value="female">
+                    <label class="form-check-label">Une femme</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="stateWomanStep">
+            <div class="form-group">
+                <label class="survey-question">
+                    Etes vous actuellement en période d'ovulation ?(Cette période peut agir sur
+                    votre température et vous donner une sensation de fièvre qui n'est pas symptomatique
+                    d'une infection/maladie.)
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ovulationPeriodRadio"
+                           id="ovulationPeriodRadioTrue" value="true">
+                    <label for="ovulationPeriodRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ovulationPeriodRadio"
+                           id="ovulationPeriodRadioFalse" value="false">
+                    <label for="ovulationPeriodRadioFalse" class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="ovulationPeriodRadio"
+                           id="ovulationPeriodRadioUnknown" value="unknown">
+                    <label for="ovulationPeriodRadioUnknown" class="form-check-label">Je ne sais pas/Je ne
+                        souhaite pas répondre</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="pregnantStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Êtes-vous enceinte ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pregnantRadio"
+                           id="pregnantRadioTrue" value="true">
+                    <label for="pregnantRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pregnantRadio"
+                           id="pregnantRadioFalse" value="false">
+                    <label for="pregnantRadioFalse" class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="pregnantRadio"
+                           id="pregnantRadioUnknown" value="unknown">
+                    <label class="form-check-label" id="pregnantRadioUnknownLabel">Je ne sais pas</label>
+                </div>
+            </div>
+            <div hidden id="thirdTrimesterPregnancyQuestion" class="form-group">
+                <label class="survey-question">
+                    Êtes-vous au troisième trimestre de grossesse ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="thirdTrimesterPregnancyRadio"
+                           id="thirdTrimesterPregnancyRadioTrue" value="true">
+                    <label for="thirdTrimesterPregnancyRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio"
+                           name="thirdTrimesterPregnancyRadio"
+                           value="false">
+                    <label class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="thirdTrimesterPregnancyRadio"
+                           id="thirdTrimesterPregnancyRadiono_answer" value="no_answer">
+                    <label class="form-check-label">Je ne souhaite pas répondre.</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="highBloodPressureStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous de l’hypertension artérielle mal équilibrée ? Ou avez-vous une maladie
+                    cardiaque ou vasculaire dûment diagnostiquée par un médecin ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="highBloodPressureRadio"
+                           id="highBloodPressureRadioTrue" value="true">
+                    <label for="highBloodPressureRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="highBloodPressureRadio"
+                           id="highBloodPressureRadioFalse" value="false">
+                    <label for="highBloodPressureRadioFalse" class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="highBloodPressureRadio"
+                           id="highBloodPressureRadioUnknown" value="unknown">
+                    <label class="form-check-label" for="highBloodPressureRadioUnknown">Je ne sais pas</label>
+                </div>
+            </div>
+            <div hidden id="highBloodPressureValues" class="form-group">
+                <label class="survey-question">
+                    Entrez les dernières valeurs mesurées de votre Tension artérielle en cmHg
+                    (centimètres
+                    de mercure). Ceci est optionnel.
+                </label>
+                <br><br>
+                <div class="input-group">
+                    <input id="systolicPressureInput" class="form-control col-lg-2 form-control-lg"
+                           placeholder="12" type="number">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Pression systolique (2 premiers chiffres)</span>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input id="diastolicPressureInput" class="form-control col-lg-2 form-control-lg"
+                           placeholder="8" type="number">
+                    <div class="input-group-append">
+                        <span class="input-group-text">Pression diastolique (2 derniers chiffres)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div hidden id="cancerStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous ou avez-vous eu un cancer ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="cancerRadio"
+                           id="cancerRadioTrue" value="true">
+                    <label for="cancerRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="cancerRadio"
+                           id="cancerRadioFalse" value="false">
+                    <label for="cancerRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id=diseaseLungStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous une maladie respiratoire ? Ou êtes-vous suivi par un pneumologue ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diseaseLungRadio"
+                           id="diseaseLungRadioTrue" value="true">
+                    <label for="diseaseLungRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diseaseLungRadio"
+                           id="diseaseLungRadioFalse" value="false">
+                    <label for="diseaseLungRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id=diseaseKidneyStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous une insuffisance rénale chronique dialysée ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diseaseKidneyRadio"
+                           id="diseaseKidneyRadioTrue" value="true">
+                    <label for="diseaseKidneyRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diseaseKidneyRadio"
+                           id="diseaseKidneyRadioFalse" value="false">
+                    <label for="diseaseKidneyRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id=diseaseLiverStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Avez-vous une maladie chronique du foie ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diseaseLiverRadio"
+                           id="diseaseLiverRadioTrue" value="true">
+                    <label for="diseaseLiverRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="diseaseLiverRadio"
+                           id="diseaseLiverRadioFalse" value="false">
+                    <label for="diseaseLiverRadioFalse" class="form-check-label">Non</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="immunoDepressifStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Êtes-vous immunodéprimé(e), pour les raisons suivantes ? Êtes-vous un(e)
+                    transplanté(e) d'organe solide ? Vivez-vous avec le VIH (CD4 ˂ 200/mm³) ?
+                    Êtes-vous atteint(e) de déficit immunitaire héréditaire ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="immunoDepressifRadio"
+                           id="immunoDepressifRadioTrue" value="true">
+                    <label for="immunoDepressifRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="immunoDepressifRadio"
+                           id="immunoDepressifRadioFalse" value="false">
+                    <label for="immunoDepressifRadioFalse" class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="immunoDepressifRadio"
+                           id="immunoDepressifRadioUnknown" value="unknown">
+                    <label class="form-check-label" for="immunoDepressifRadioUnknown">Je ne sais pas</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="immunoSuppressantStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Prenez-vous un traitement immunosuppresseur ? C’est un traitement qui
+                    diminue vos
+                    défenses contre les infections (Corticoïdes, Anti-cancéreux).
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="immunoSuppressantRadio"
+                           id="immunoSuppressantRadioTrue" value="true">
+                    <label for="immunoSuppressantRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="immunoSuppressantRadio"
+                           id="immunoSuppressantRadioFalse" value="false">
+                    <label for="immunoSuppressantRadioFalse" class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="immunoSuppressantRadio"
+                           id="immunoSuppressantRadioUnknown" value="unknown">
+                    <label class="form-check-label" id="immunoSuppressantRadioUnknownLabel">Je ne sais pas</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="antiInflammatoryStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Prenez-vous actuellement des médicaments Anti-Inflammatoires tels que : Ibuprofène,
+                    Diclofénac, Acéclofénac, Kétoprofène , Aspirine... pour vous soulager d’une douleur,
+                    d’une inflammation ou d’une fièvre ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="antiInflammatoryRadio"
+                           id="antiInflammatoryRadioTrue" value="true">
+                    <label for="antiInflammatoryRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="antiInflammatoryRadio"
+                           id="antiInflammatoryRadioFalse" value="false">
+                    <label for="antiInflammatoryRadioFalse" class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="antiInflammatoryRadio"
+                           id="antiInflammatoryRadioUnknown" value="unknown">
+                    <label class="form-check-label" for="antiInflammatoryRadioUnknown">Je ne sais pas</label>
+                </div>
+                <br><br>
+                <h6>
+                    Pour la composition en substance(s) active(s) de vos médicaments, référez-vous à
+                    leurs boîtes, étiquettes ou notices.
+                </h6>
+            </div>
+        </div>
+        <div hidden id="respectHygieneStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Respectez-vous SCRUPULEUSEMENT les règles d'hygiène, les mesures barrières
+                    et autres consignes en lien avec la lutte contre la COVID-19 ?
+                </label>
+                <br><br>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="respectHygieneRadio"
+                           id="respectHygieneRadioTrue" value="true">
+                    <label for="respectHygieneRadioTrue" class="form-check-label">Oui</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="respectHygieneRadio"
+                           id="respectHygieneRadioFalse" value="false">
+                    <label for="respectHygieneRadioFalse" class="form-check-label">Non</label>
+                </div>
+                <div class="radio form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="respectHygieneRadio"
+                           id="respectHygieneRadioFalse_Half" value="false_half">
+                    <label for="respectHygieneRadioFalse_Half" class="form-check-label">Pas
+                        totalement</label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="contactPersonStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Etes vous dans l'un des cas suivants ?
+                </label>
+                <br><br>
+                <div class="form-check">
+                    <input class="contactPerson-cb form-check-input checkbox-custom" type="checkbox"
+                           value="true"
+                           id="professionalInChargeOfCOVID19Patients">
+                    <label class="form-check-label checkbox-custom-label"
+                           for="professionalInChargeOfCOVID19Patients">
+                        Professionnel de santé, EN PREMIÈRE LIGNE dans la prise en charge de patients
+                        atteints du COVID-19.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="contactPerson-cb form-check-input checkbox-custom" type="checkbox"
+                           value="true"
+                           id="recentTravelToRiskyZone">
+                    <label class="form-check-label checkbox-custom-label"
+                           for="recentTravelToRiskyZone">
+                        J'ai effectué récemment (il y a moins de 15 jours) dans une ZONE À RISQUES, où
+                        sévit
+                        le Coronavirus.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="contactPerson-cb form-check-input checkbox-custom" type="checkbox"
+                           value="true"
+                           id="contactWitConfirmedPatient">
+                    <label class="form-check-label checkbox-custom-label"
+                           for="contactWitConfirmedPatient">
+                        J'ai eu récemment (il y a moins de 15 jours) un CONTACT RAPPROCHÉ avec une
+                        personne confirmée COVID-19 dans les
+                        circonstances suivantes : Collègue de Travail, Placé dans le même espace
+                        d'isolement ou de confinement,
+                        Voyage avec le même moyen de Transport(Moto, Voiture, Bus, Avion...),
+                        Même ménage...
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input checkbox-custom" type="checkbox" value="none"
+                           id="contactCaseNone">
+                    <label class="form-check-label checkbox-custom-label" for="contactCaseNone">
+                        Aucun de ces cas
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div hidden id="consommationStep" class="survey-step animated">
+            <div class="form-group">
+                <label class="survey-question">
+                    Consommez vous régulièrement ?
+                </label>
+                <br><br>
+                <div class="form-check">
+                    <input class="consommation-cb form-check-input checkbox-custom" type="checkbox"
+                           value="alcohol"
+                           id="consommationCheckAlcohol">
+                    <label class="form-check-label checkbox-custom-label"
+                           for="consommationCheckAlcohol">
+                        Alcool
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="consommation-cb form-check-input checkbox-custom" type="checkbox"
+                           value="tabac"
+                           id="consommationCheckTobacco">
+                    <label class="form-check-label checkbox-custom-label"
+                           for="consommationCheckTobacco">
+                        Tabac
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="consommation-cb form-check-input checkbox-custom" type="checkbox"
+                           value="wildAnimals"
+                           id="consommationCheckWildAnimals">
+                    <label class="form-check-label checkbox-custom-label"
+                           for="consommationCheckWildAnimals">
+                        Viandes d'animaux sauvages
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input checkbox-custom" type="checkbox" value="none"
+                           id="consommationCheckNone">
+                    <label class="form-check-label checkbox-custom-label" for="consommationCheckNone">
+                        Aucun
+                    </label>
+                </div>
+            </div>
+        </div>
+    </form>
+    <button hidden id="btn-move-next" style="border-radius: 15px; margin-top: 24px; "
+            class="btn btn-lg btn-info col-lg-2 offset-lg-4 col-8 offset-2"> Suivant
+    </button>
+    <button id="btn-finish-survey" hidden style="border-radius: 15px; margin-top: 24px;"
+            class="btn btn-lg btn-success col-lg-2 offset-lg-8 col-8 offset-2">
+        Terminer
+    </button>
+</div>

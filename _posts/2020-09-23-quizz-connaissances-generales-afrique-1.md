@@ -11,6 +11,7 @@ hidden: true
 comments: false  
 rating: 2.5
 permalink: /quizz-afrique-1
+manualSurvey: false
 theme: modern
 surveyId: b03e0f1d-4f13-4cfd-bc95-61db2d6bc730
 ResultId: aa325d74-2f6b-4867-bfaa-553b8771a86c

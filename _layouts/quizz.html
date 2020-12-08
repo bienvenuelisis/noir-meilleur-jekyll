@@ -30,11 +30,26 @@
     <script src="{{ site.baseurl }}/assets/elisis/location.min.js"></script>
 
     <!-- Surveys -->
+
+    {% if page.manualSurvey == true %}
+
+    <link href="{{ site.baseurl }}/assets/quizz/quizz.css" type="text/css" rel="stylesheet"/>
+
+    <link href="{{ site.baseurl }}/assets/elisis/survey/survey.min.css" type="text/css" rel="stylesheet"/>
+
+    <link href="{{ site.baseurl }}/assets/elisis/survey/modern.min.css" type="text/css" rel="stylesheet"/>
+
+    <script src="{{ site.baseurl }}/assets/quizz/quizz.js"></script>
+
+    {% else %}
+
     <script src="{{ site.baseurl }}/assets/elisis/survey/survey-fr.jquery.js"></script>
 
     <link href="{{ site.baseurl }}/assets/elisis/survey/survey.min.css" type="text/css" rel="stylesheet"/>
 
     <link href="{{ site.baseurl }}/assets/elisis/survey/modern.min.css" type="text/css" rel="stylesheet"/>
+
+    {% endif %}
 
     {% if jekyll.environment == 'production' %}
     <script data-ad-client="ca-pub-3022200405839941"
@@ -173,10 +188,20 @@
 
                 <div class="row justify-content-between">
                     <div class="col-lg-10 offset-lg-1">
+                        {% if page.manualSurvey == true %}
+
+                        <div hidden class="row" id="quizz-survey-manual-container">
+                            {% include quizz-manual.html quizzName=page.quizzName %}
+                        </div>
+                        {% include loader.html %}
+
+                        {% else %}
                         <br>
                         <hr>
                         <div id="quizz-survey-container"></div>
                         {% include loader.html %}
+
+                        {% endif %}
                     </div>
                 </div>
 
@@ -189,6 +214,10 @@
                         {% include disqus.html %}
                     </div>
                 </div>
+
+                {% endif %}
+
+                {% if page.comments == true %}
 
                 {% endif %}
             </section>
@@ -249,10 +278,21 @@
     ================================================== -->
 
 </div> <!-- /.site-content -->
+
+{% if page.manualSurvey == true %}
+
+{% include quizz-manual-script.html quizzName=page.quizzName  %}
+
+{% else %}
+
 {% include quizz-script.html theme=page.theme surveyId=page.surveyId ResultId=page.ResultId
 surveyPostId=page.surveyPostId maxTimeToFinish=page.maxTimeToFinish
 maxTimeToFinishPage=page.maxTimeToFinishPage responsePage=page.responsePage
 cookie=page.cookie %}
+
+{% endif %}
+
+
 <!-- Scripts
 ================================================== -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"

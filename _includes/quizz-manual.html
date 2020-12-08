@@ -1,0 +1,22 @@
+<form method="post" enctype="multipart/form-data" style="color: black; !important;"
+      id="survey-form-container-steps" class="col-lg-12 offset-lg-0 sv-page sv-body__page sv-container-modern">
+
+    <label style="color: darkred;"
+           id="label-error-query-empty-fields" class="form-check-label">
+
+    </label>
+
+    {% include manual-quizz/{{ include.quizzName }}.html %}
+
+    <button hidden id="btn-move-next" style="margin-top: 24px;"
+            class="sv-btn sv-footer__start-btn">
+        Suivant
+    </button>
+
+    <button id="btn-finish-survey" hidden style="border-radius: 15px; margin-top: 24px;"
+            class="btn btn-lg btn-success col-lg-4 offset-lg-8 col-8 offset-2">
+        Terminer
+    </button>
+
+</form>
+
