@@ -64,7 +64,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-redirect-from
-#  - jekyll-admin
+  - jekyll-admin
 
 # If you would like to exclude specific pages/posts from the sitemap set the sitemap flag
 # to false in the front matter for the page/post.
@@ -76,7 +76,8 @@ whitelist:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-archives
-#  - jekyll-admin
+  - jekyll-sitemap
+  - jekyll-admin
 
 # Archives
 jekyll-archives:
