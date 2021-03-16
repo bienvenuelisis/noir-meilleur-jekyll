@@ -25,6 +25,7 @@ permalink: /api/
 	"posts" : [{% for post in site.posts %}
 		{
 		"id":"{{post.id | slugify: "latin"}}",
+		"media":"NOIRMEILLEUR",
 		"slug":"{{post.title | slugify}}",
 		"url":"{{site.url}}{{post.url}}",
 		"title":"{{post.title}}",
