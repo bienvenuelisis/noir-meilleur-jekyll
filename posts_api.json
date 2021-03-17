@@ -10,14 +10,14 @@ permalink: /api/
 
 
 {
-	"homepage" : "{{ site.url }}",
+	"homepage" : "{{ site.baseurl }}",
 	"version"  : "1",
 	"name": {{ site.name | smartify | jsonify}},
 	"description": "{{ site.description }}",
 	"logo": "{{ site.logo }}",
 	"expired": false,
 	"favicon": "{{ site.favicon }}",
-	"url": "{{ site.url }}",
+	"url": "{{ site.baseurl }}",
 	"disqus": "{{ site.disqus }}",
 	"email": "{{ site.email }}",
 	"paginate": "{{ site.paginate }}",
@@ -27,10 +27,10 @@ permalink: /api/
 		"id":"{{post.id | slugify: "latin"}}",
 		"media":"NOIRMEILLEUR",
 		"slug":"{{post.title | slugify}}",
-		"url":"{{site.url}}{{post.url}}",
+		"url":"{{site.baseurl}}{{post.url}}",
 		"title":"{{post.title}}",
 		"date":"{{post.date}}",
-		"image":"{{post.image}}",
+		"image":"{{site.baseurl}}{{post.image}}",
 		"author":{{site.authors[post.author] | jsonify}},
 		"read_time":"{{post.content | number_of_words | divided_by:180 }}",
 		"date_fr"     : {
