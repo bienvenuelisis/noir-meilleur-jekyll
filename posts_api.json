@@ -30,7 +30,7 @@ permalink: /api/
 		"url":"{{site.baseurl}}{{post.url}}",
 		"title":"{{post.title}}",
 		"date":"{{post.date}}",
-		"image":"{{site.baseurl}}{{post.image}}",
+		"image":"{{site.baseurl}}/{{post.image}}",
 		"author":{{site.authors[post.author] | jsonify}},
 		"read_time":"{{post.content | number_of_words | divided_by:180 }}",
 		"date_fr"     : {

@@ -9,6 +9,7 @@ url: 'https://noirmeilleur.com'
 #baseurl: ''
 baseurl: 'https://noirmeilleur.com'
 google_analytics: 'G-1XSX4CZHBN'
+email: 'elisis.author@gmail.com'
 disqus: 'noir-meilleur'
 pageclip_url : 'https://pageclip.co/site/noir-meilleur'
 # Disable MailChimp. Use Notifications instead.
