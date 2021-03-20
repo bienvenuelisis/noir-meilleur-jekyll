@@ -26,6 +26,7 @@ permalink: /api/
 		{
 		"id":"{{post.id | slugify: "latin"}}",
 		"media":"NOIRMEILLEUR",
+		"featured":{{post.featured}},
 		"slug":"{{post.title | slugify}}",
 		"url":"{{site.baseurl}}{{post.url}}",
 		"title":"{{post.title}}",
