@@ -26,8 +26,10 @@ authors:
     gravatar: c9908ff7b5184aae488be00a62a75c27
     email: elisis.author@gmail.com
     web: https://bienvenuelisis.github.io/
+    site: https://bienvenuelisis.github.io/
     twitter: https://twitter.com/AgbavonB
     social: https://www.linkedin.com/in/bienvenu-agbavon/
+    bio: "A Java Backend Programmer. IT Ingenior. Humanist blogger. African optimist"
     description: "A Java Backend Programmer. IT Ingenior. Humanist blogger. African optimist"
   gerha:
     name: Gérard D'férimba BAMANA
@@ -35,8 +37,10 @@ authors:
     display_name: Gérard D. BAMANA
     email: gerardbamana@outlook.com
     web: https://www.instagram.com/gerardbamana/
+    site: https://www.instagram.com/gerardbamana/
     social: https://www.instagram.com/gerardbamana/
     twitter: https://twitter.com/gerardbamana
+    bio: "Outsider."
     description: "Outsider."
   ish:
     name: SANA G. Ismaël
@@ -44,8 +48,10 @@ authors:
     display_name: SANA G. Ismaël
     email: ishgambila@gmail.com
     web: https://www.instagram.com/ish_gambila/
+    site: https://www.instagram.com/ish_gambila/
     social: https://www.facebook.com/isma.gambila
     twitter: #!
+    bio: "Je ne me connais pas encore assez. Alors dites moi ! Comment me décririez vous ?"
     description: "Je ne me connais pas encore assez. Alors dites moi ! Comment me décririez vous ?"
 
 
