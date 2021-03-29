@@ -38,7 +38,7 @@ Patricia Era Bath ; à sa conviction, son engagement, ses travaux et son génie.
 
 Merci Patricia.
 
-# Article en ligne : https://noir-meilleur.digital/patricia-era-bath/
+# Article en ligne : https://noirmeilleur.com/patricia-era-bath/
 
 # Social Media Article Présentation : 
 >Ouvre les yeux, et voit.
@@ -58,8 +58,8 @@ Si. Découvrez la biographie celle qui aura _changé le visage de la médecine_.
 
 # Social Media Article Présentation : 
 
-https://noir-meilleur.digital/assets/images/scientists/patricia-era-bath/04Bath1-superJumbo.jpg
+https://noirmeilleur.com/assets/images/scientists/patricia-era-bath/04Bath1-superJumbo.jpg
 
-https://noir-meilleur.digital/assets/images/scientists/patricia-era-bath/Dr_Patricia_Bath.jpg
+https://noirmeilleur.com/assets/images/scientists/patricia-era-bath/Dr_Patricia_Bath.jpg
 
 # Youtube Link : https://www.youtube.com/watch?v=gcE_QMTBNW4

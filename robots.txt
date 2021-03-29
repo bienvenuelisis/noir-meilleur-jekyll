@@ -3,4 +3,4 @@
 User-agent: *
 # Disallow: /ads
 
-Sitemap: https://noir-meilleur.digital/sitemap.xml
+Sitemap: https://noirmeilleur.com/sitemap.xml

@@ -388,7 +388,7 @@ comments: true
     <br>Aidez les à mettre en oeuvre les mesures de précautions.
     <br><br>
     Si vous avez jugé cet article utile, n'hésitez pas à le
-    <a href="whatsapp://send?text=https://noir-meilleur.digital/blog/health/mcv-those-sniper-pt-2"
+    <a href="whatsapp://send?text=https://noirmeilleur.com/blog/health/mcv-those-sniper-pt-2"
        data-action="share/whatsapp/share">partager</a>.
 </p>
 
