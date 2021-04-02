@@ -2,8 +2,8 @@
 name: "Noir Meilleur"
 title: "Noir Meilleur"
 description: "Vivre ensemble, c'est toujours possible."
-logo: 'assets/images/icons/icon.png'
-favicon: 'assets/images/icons/icon.png'
+logo: 'assets/favicons/logo.png'
+favicon: 'assets/favicons/logo.png'
 #url: ''
 url: 'https://noirmeilleur.com'
 #baseurl: ''
