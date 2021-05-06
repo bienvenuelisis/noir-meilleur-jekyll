@@ -16,6 +16,9 @@ pageclip_url : 'https://pageclip.co/site/noir-meilleur'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
+downloadapp: 'https://apps.noirmeilleur.com/#download'
+playstore: 'https://play.google.com/store/apps/details?id=com.noirmeilleur.android'
+appstore: '#'
 
 # Authors
 authors:

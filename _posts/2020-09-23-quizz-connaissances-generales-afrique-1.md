@@ -7,6 +7,7 @@ tags: [Afrique Connaissance Générales]
 image: assets/images/quizz/quizz-afrique.jpg
 description: "Vous pensez connaître l'Afrique comme le fond de votre poche ? Prouvez le !"
 featured: false
+premium: true
 hidden: true
 comments: false  
 rating: 2.5
