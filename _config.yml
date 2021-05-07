@@ -115,7 +115,7 @@ kramdown:
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3022200405839941"
+adsense-data-ad-client: "ca-pub-4997176462744877"
 adsense-data-ad-slot: "7391539126"
 
 # Lazy Images ("enabled" or "disabled")
