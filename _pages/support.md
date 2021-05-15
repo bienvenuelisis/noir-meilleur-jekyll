@@ -27,11 +27,11 @@ Contactez <a href="mailto:elisis.author@gmail.com">moi</a> !</h5>
 Suivez nous sur les réseaux sociaux, souscrivez à la newsletter et/ou aux notifications pour être informé 
 de l'actualité du site.
 <br>
-<a target="_blank" style="padding-left:14px; color:blue;" href="https://twitter.com/noir___meilleur"><i class="fab fa-twitter fa-2x"></i></a>
+<!-- <a target="_blank" style="padding-left:14px; color:blue;" href="https://twitter.com/noir___meilleur"><i class="fab fa-twitter fa-2x"></i></a> -->
+
+<!-- <a target="_blank" style="color:blue; padding-left:14px;" href="https://www.facebook.com/noirmeilleurpage/"><i class="fab fa-facebook fa-2x"></i></a> -->
  
 <a target="_blank" style="color:#ed4956; padding-left:14px;" href="https://www.instagram.com/noir___meilleur/"><i class="fab fa-instagram fa-2x"></i></a>
-
-<a target="_blank" style="color:blue; padding-left:14px;" href="https://www.facebook.com/noirmeilleurpage/"><i class="fab fa-facebook fa-2x"></i></a>
 </p>
 
 
