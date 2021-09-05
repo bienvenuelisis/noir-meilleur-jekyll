@@ -1,0 +1,646 @@
+[
+    {
+        "country_fr": "Afrique Francophone",
+        "country_en": "French speaking Africa",
+        "country": "Afrique Francophone",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF *:",
+        "importance": 5
+    },
+    {
+        "country_fr": "Sénégal",
+        "country_en": "Senegal",
+        "country": "Sénégal",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-SENEGAL",
+        "importance": 3
+    },
+    {
+        "country": "Mali",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-MALI",
+        "importance": 3
+    },
+    {
+        "country": "Côte d'Ivoire",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français (Côte d'Ivoire)",
+        "regex": "^AF-COTE D'IVOIRE",
+        "importance": 3
+    },
+    {
+        "country": "Burkina Faso",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-BURKINA FASO",
+        "importance": 3
+    },
+    {
+        "country": "Ghana",
+        "lang": "EN",
+        "name_fr": "Anglais Ghanéen",
+        "name_en": "Ghanaian English",
+        "name": "English (Ghana)",
+        "regex": "^AF-GHANA",
+        "importance": 3
+    },
+    {
+        "country_fr": "Cameroun",
+        "country_en": "Cameroon",
+        "country": "Cameroon",
+        "lang": "EN",
+        "name_fr": "Anglais",
+        "name_en": "English",
+        "name": "English",
+        "regex": "^AF-CAMEROON",
+        "importance": 3
+    },
+    {
+        "country_fr": "Cameroun",
+        "country_en": "Cameroon",
+        "country": "Cameroun",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-CAMEROON",
+        "importance": 3
+    },
+    {
+        "country_fr": "Nigéria",
+        "country_en": "Nigeria",
+        "country": "Nigeria",
+        "lang": "EN",
+        "name_fr": "Anglais Nigérian",
+        "name_en": "Nigerian English",
+        "name": "English (Nigeria)",
+        "regex": "(^AF-NIGIERIA|^AF-NIGERIA)",
+        "importance": 3
+    },
+    {
+        "country_fr": "Bénin",
+        "country_en": "Benin",
+        "country": "Bénin",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-BENIN",
+        "importance": 3
+    },
+    {
+        "country_en": "Brunéi",
+        "country_fr": "Brunei",
+        "country": "Negara Brunei Darussalam",
+        "lang": "OTHER",
+        "name_fr": "Malais",
+        "name_en": "Malay",
+        "name": "بهاس ملايو",
+        "regex": "^AF-BRUNEI *:?",
+        "importance": 0
+    },
+    {
+        "country": "Congo Kinshasa",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-CONGO",
+        "importance": 3
+    },
+    {
+        "country": "Congo Brazzaville",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-CONGO BRAZZAVILLE *:?",
+        "importance": 3
+    },
+    {
+        "country_fr": "Ouganda",
+        "country_en": "Uganda",
+        "country": "Uganda",
+        "lang": "EN",
+        "name_fr": "Anglais",
+        "name_en": "English",
+        "name": "English",
+        "regex": "^AF-UGHANDA",
+        "importance": 1
+    },
+    {
+        "country_fr": "Sierra Léone",
+        "country_en": "Sierra Leone",
+        "country": "Sierra Leone",
+        "lang": "EN",
+        "name_fr": "Anglais",
+        "name_en": "English",
+        "name": "English",
+        "regex": "^AF-SIERRA LEONE",
+        "importance": 1
+    },
+    {
+        "country_fr": "Tanzanie",
+        "country_en": "Tanzania",
+        "country": "Tanzania",
+        "lang": "OTHER",
+        "name_fr": "Swahili",
+        "name_en": "Swahili",
+        "name": "Kiswahili",
+        "regex": "^AF-TANZANIA",
+        "importance": 1
+    },
+    {
+        "country_fr": "Tanzanie",
+        "country_en": "Tanzania",
+        "country": "Tanzania",
+        "lang": "EN",
+        "name_fr": "Anglais",
+        "name_en": "English",
+        "name": "English",
+        "regex": "^AF-TANZANIA",
+        "importance": 1
+    },
+    {
+        "country": "Kenya",
+        "lang": "OTHER",
+        "name_fr": "Swahili",
+        "name_en": "Swahili",
+        "name": "Kiswahili",
+        "regex": "^AF-KENYA",
+        "importance": 1
+    },
+    {
+        "country": "Kenya",
+        "lang": "EN",
+        "name_fr": "Anglais",
+        "name_en": "English",
+        "name": "English",
+        "regex": "^AF-KENYA",
+        "importance": 1
+    },
+    {
+        "country_fr": "Djibouti",
+        "country_en": "Republic of Djibouti",
+        "country": "Djibouti",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-DJIBOUTI",
+        "importance": 1
+    },
+    {
+        "country_fr": "Djibouti",
+        "country_en": "Republic of Djibouti",
+        "country": "جمهورية جيبوتي",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^AF-DJIBOUTI",
+        "importance": 1
+    },
+    {
+        "country_fr": "Guinée",
+        "country_en": "Guinée",
+        "country": "Guinée",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-GUINEA",
+        "importance": 3
+    },
+    {
+        "country_fr": "Tchad",
+        "country_en": "Chad",
+        "country": "Tchad",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-TCHAD",
+        "importance": 3
+    },
+    {
+        "country_fr": "Tchad",
+        "country_en": "Chad",
+        "country": "تشاد",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^AF-TCHAD",
+        "importance": 3
+    },
+    {
+        "country": "Angola",
+        "lang": "PT",
+        "name_en": "Portuguese",
+        "name_fr": "Portugais",
+        "name": "Português",
+        "regex": "^AF-ANGOLA",
+        "importance": 1
+    },
+    {
+        "country_en": "Ethiopia",
+        "country_fr": "Ethiopie",
+        "country": "ኢትዮጵያ",
+        "lang": "OTHER",
+        "name_fr": "Amharique",
+        "name_en": "Amharic",
+        "name": "አማርኛ",
+        "regex": "^AF-ETHIOPIA",
+        "importance": 1
+    },
+    {
+        "country_en": "Eritrea",
+        "country_fr": "Érythrée",
+        "country": "Eritrea",
+        "lang": "EN",
+        "name_fr": "Anglais",
+        "name_en": "English",
+        "name": "English",
+        "regex": "^AF-ERETERIA",
+        "importance": 1
+    },
+    {
+        "country_en": "Eritrea",
+        "country_fr": "Érythrée",
+        "country": "إرتريا",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^AF-ERETERIA",
+        "importance": 1
+    },
+    {
+        "country_en": "Eritrea",
+        "country_fr": "Érythrée",
+        "country": "ኤርትራ",
+        "lang": "OTHER",
+        "name_fr": "Tigrinya",
+        "name_en": "Tigrinya",
+        "name": "ትግርኛ",
+        "regex": "^AF-ERETERIA",
+        "importance": 1
+    },
+    {
+        "country": "Rwanda",
+        "lang": "OTHER",
+        "name": "Kinyarwanda",
+        "regex": "^AF-RAWANDA",
+        "importance": 1
+    },
+    {
+        "country": "Rwanda",
+        "lang": "FR",
+        "name_fr": "Français",
+        "name_en": "French",
+        "name": "Français",
+        "regex": "^AF-RAWANDA",
+        "importance": 1
+    },
+    {
+        "country": "Rwanda",
+        "lang": "EN",
+        "name_fr": "Anglais",
+        "name_en": "English",
+        "name": "English",
+        "regex": "^AF-RAWANDA",
+        "importance": 1
+    },
+    {
+        "country": "Rwanda",
+        "lang": "OTHER",
+        "name_fr": "Swahili",
+        "name_en": "Swahili",
+        "name": "Kiswahili",
+        "regex": "(^AF-RAWANDA|^AF-RWANDA)",
+        "importance": 1
+    },
+    {
+        "country_fr": "Somalie",
+        "country_en": "Somalia",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^AF-SOMALI*",
+        "importance": 1
+    },
+    {
+        "country": "France",
+        "lang": "FR",
+        "name": "Français",
+        "regex": "(^FR *:|\\(FR\\))",
+        "importance": 4
+    },
+    {
+        "country": "Canada",
+        "lang": "EN",
+        "name_fr": "Anglais Canadien",
+        "name_en": "Canadian English",
+        "name": "English (CA)",
+        "regex": "^CA *:",
+        "importance": 2
+    },
+    {
+        "country_fr": "Angleterre",
+        "country_en": "England",
+        "lang": "EN",
+        "name_fr": "Anglais Britannique",
+        "name_en": "British English",
+        "name": "English (UK)",
+        "regex": "(^UK*:|ENGLISH)",
+        "importance": 4
+    },
+    {
+        "country_fr": "Etats Unis d'Amérique",
+        "country_en": "United States of America",
+        "lang": "EN",
+        "name_fr": "Anglais Américain",
+        "name_en": "American English",
+        "name": "English (US)",
+        "regex": "USA",
+        "importance": 4
+    },
+    {
+        "country_fr": "Allemagne",
+        "country_en": "Germany",
+        "lang": "DE",
+        "name_fr": "Allemand",
+        "name_en": "German",
+        "name": "Deutsh",
+        "regex": "^DE *:?",
+        "importance": 2
+    },
+    {
+        "country_fr": "Belgique",
+        "country_en": "Belgium",
+        "lang": "FR",
+        "name_fr": "Français (Belgique)",
+        "name_en": "French (Belgium)",
+        "regex": "^BE *:",
+        "importance": 2
+    },
+    {
+        "country_fr": "Suisse",
+        "country_en": "Swiss",
+        "lang": "FR",
+        "name_fr": "Français (Suisse)",
+        "name_en": "French (Switzerland)",
+        "regex": "^CH *:",
+        "importance": 2
+    },
+    {
+        "country_fr": "Portugal",
+        "lang": "PT",
+        "name_en": "Portuguese",
+        "name_fr": "Portugais",
+        "name": "Português",
+        "regex": "^PT *:",
+        "importance": 2
+    },
+    {
+        "country_fr": "Italie",
+        "country_en": "Italy",
+        "lang": "IT",
+        "name_fr": "Italien",
+        "name_en": "Italian",
+        "name": "Italiano",
+        "regex": "^IT *:",
+        "importance": 2
+    },
+    {
+        "country_fr": "Espagne",
+        "country_en": "Spain",
+        "lang": "ES",
+        "name_en": "Spanish",
+        "name_fr": "Espagnol",
+        "name": "Español",
+        "regex": "^ES *:?",
+        "importance": 2
+    },
+    {
+        "country_fr": "Turquie",
+        "country_en": "Turkey",
+        "lang": "TR",
+        "name_en": "Turkish",
+        "name_fr": "Turc",
+        "name": "Türk",
+        "regex": "^TR *:?",
+        "importance": 1
+    },
+    {
+        "country_fr": "Tunisie",
+        "country_en": "Tunisia",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^TU?N *:",
+        "importance": 1
+    },
+    {
+        "country_fr": "Lybie",
+        "country_en": "Libya",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^LIB *:",
+        "importance": 1
+    },
+    {
+        "country_fr": "Algérie",
+        "country_en": "Algeria",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^ALG *:",
+        "importance": 1
+    },
+    {
+        "country_fr": "Maroc",
+        "country_en": "Morocco",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^MAR *:",
+        "importance": 1
+    },
+    {
+        "country_fr": "Liban",
+        "country_en": "Lebanon",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^LBN *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Yémen",
+        "country_en": "Yemen",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^YEM *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Syrie",
+        "country_en": "Syria",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^SYR *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Jordanie",
+        "country_en": "Jordan",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^JOR *:",
+        "importance": 0
+    },
+    {
+        "country_en": "Koweit",
+        "country_fr": "Kuwait",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^KUW *:",
+        "importance": 0
+    },
+    {
+        "country": "Qatar",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^QAT *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Bahrein",
+        "country_en": "Bahrain",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^BAH *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Emirats Arabe Unis",
+        "country_en": "United Arab Emirates",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^UAE *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Soudan",
+        "country_en": "Sudan",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^SUD *:",
+        "importance": 0
+    },
+    {
+        "country": "Iraq",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^IRQ *:",
+        "importance": 0
+    },
+    {
+        "country": "Palestine",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^PAL *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Egypte",
+        "country_en": "Egypt",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^EGY *:",
+        "importance": 1
+    },
+    {
+        "country": "Oman",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^OMA *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Arabie Saoudite",
+        "country_en": "Saudi Arabia",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "^SAU *:",
+        "importance": 0
+    },
+    {
+        "country_fr": "Chaînes arabes",
+        "country_en": "Arab channels",
+        "lang": "AR",
+        "name_fr": "Arabe",
+        "name_en": "Arab",
+        "name": "عرب",
+        "regex": "(^AR:|MBC|^BEIN:?|^AR-NEWS *:?|^AR-MUSIC *:?|^AR-KIDS *:?|^ISL:|^MOR:|AL MAJD|^OSN:)",
+        "importance": 2
+    },
+    {
+        "country_fr": "Autres",
+        "country_en": "Others",
+        "lang": "OTHER",
+        "name_fr": "Autres",
+        "name_en": "Others",
+        "name": "آحرون",
+        "regex": "Choufli Hal",
+        "importance": 0
+    }
+]
