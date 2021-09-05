@@ -7,7 +7,7 @@
         "name_fr": "Français",
         "name_en": "French",
         "name": "Français",
-        "regex": "^AF *:",
+        "regex": "^AF *:?",
         "importance": 5
     },
     {
