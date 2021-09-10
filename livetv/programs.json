@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Coupe d'Afrique des nations de football",
+        "name_en": "Africa Cup of Nations",
+        "name_fr": "Coupe d'Afrique des Nations",
+        "sport": "FOOTBALL",
+        "image_en": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/can_en.png",
+        "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/can.png",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/can.png",
+        "importance": 5,
+        "_": ""
+    },
+    {
+        "name": "Championnat d'Afrique des nations de football",
+        "name_en": "African Nations Championship",
+        "name_fr": "Championnat d'Afrique des nations de football",
+        "sport": "FOOTBALL",
+        "image_en": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/chan_en.png",
+        "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/chan.png",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/chan.png",
+        "importance": 4,
+        "_": ""
+    },
+    {
+        "name": "Coupe du Monde FIFA",
+        "name_en": "FIFA World Cup",
+        "name_fr": "Coupe du Monde FIFA",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/fifa_worldcup.png",
+        "importance": 4,
+        "_": ""
+    },
+    {
+        "name": "FIFA Club World Cup",
+        "name_en": "FIFA Club World Cup",
+        "name_fr": "Coupe du monde des clubs de la FIFA",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/club_worldcup_fifa.png",
+        "importance": 3,
+        "_": ""
+    },
+    {
+        "name": "Euro",
+        "name_en": "UEFA European Championship",
+        "name_fr": "Championnat d'Europe de football",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/euro.jpg",
+        "importance": 3,
+        "_": ""
+    },
+    {
+        "name": "Copa América",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/copa_america.png",
+        "importance": 2,
+        "_": ""
+    },
+    {
+        "name": "UEFA Champions League",
+        "name_en": "UEFA Champions League",
+        "name_fr": "Ligue des champions de l'UEFA",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/c1.png",
+        "importance": 4,
+        "_": ""
+    },
+    {
+        "name": "UEFA Super Cup",
+        "name_en": "UEFA Super Cup",
+        "name_fr": "Supercoupe de l'UEFA",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/uefa_supercup.jpg",
+        "importance": 3,
+        "_": ""
+    },
+    {
+        "name": "UEFA Europa League",
+        "name_en": "UEFA Europa League",
+        "name_fr": "Ligue Europa de l'UEFA",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/c3.jpg",
+        "importance": 1,
+        "_": ""
+    },
+    {
+        "name": "UEFA Europa Conference League",
+        "name_en": "UEFA Europa Conference League",
+        "name_fr": "Ligue Europa Conférence",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/c4.jpg",
+        "importance": 1,
+        "_": ""
+    },
+    {
+        "name": "CAF Champions League",
+        "name_en": "CAF Champions League",
+        "name_fr": "Ligue des champions de la CAF",
+        "sport": "FOOTBALL",
+        "image_en": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/cl_caf_en.png",
+        "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/cl_caf.png",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/cl_caf_en.png",
+        "importance": 3,
+        "_": ""
+    },
+    {
+        "name": "CAF Super Cup",
+        "name_en": "CAF Super Cup",
+        "name_fr": "Supercoupe de la CAF",
+        "sport": "FOOTBALL",
+        "image_en": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/caf_supercup.png",
+        "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/caf_supercoupe.png",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/caf_supercup.png",
+        "importance": 2,
+        "_": ""
+    },
+    {
+        "name": "Coupe de la confédération",
+        "name_en": "CAF Confederation Cup",
+        "name_fr": "Coupe de la confédération",
+        "sport": "FOOTBALL",
+        "image_en": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/cup_confederation.png",
+        "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/coupe_confederation.png",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/coupe_confederation.png",
+        "importance": 2,
+        "_": ""
+    },
+    {
+        "name": "Premier League",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/premier_league.png",
+        "importance": 4,
+        "_": ""
+    },
+    {
+        "name": "La Liga",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/la_liga.jpg",
+        "importance": 3,
+        "_": ""
+    },
+    {
+        "name": "Serie A",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/serie_a.jpg",
+        "importance": 2,
+        "_": ""
+    },
+    {
+        "name": "Bundesliga",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/bundesliga.png",
+        "importance": 3,
+        "_": ""
+    },
+    {
+        "name": "Ligue 1",
+        "sport": "FOOTBALL",
+        "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/ligue1.png",
+        "importance": 3,
+        "_": ""
+    }
+]
