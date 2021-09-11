@@ -8,6 +8,8 @@
         "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/can.png",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/can.png",
         "importance": 5,
+        "active": false,
+        "code": "can",
         "_": ""
     },
     {
@@ -19,6 +21,8 @@
         "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/chan.png",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/chan.png",
         "importance": 4,
+        "active": false,
+        "code": "chan",
         "_": ""
     },
     {
@@ -28,6 +32,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/fifa_worldcup.png",
         "importance": 4,
+        "active": false,
+        "code": "worldcupnations",
         "_": ""
     },
     {
@@ -37,6 +43,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/club_worldcup_fifa.png",
         "importance": 3,
+        "active": false,
+        "code": "worldcupclubs",
         "_": ""
     },
     {
@@ -46,6 +54,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/euro.jpg",
         "importance": 3,
+        "active": false,
+        "code": "euro",
         "_": ""
     },
     {
@@ -53,6 +63,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/copa_america.png",
         "importance": 2,
+        "active": false,
+        "code": "copaamerica",
         "_": ""
     },
     {
@@ -62,6 +74,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/c1.png",
         "importance": 4,
+        "active": true,
+        "code": "c1",
         "_": ""
     },
     {
@@ -71,6 +85,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/uefa_supercup.jpg",
         "importance": 3,
+        "active": false,
+        "code": "c2",
         "_": ""
     },
     {
@@ -80,6 +96,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/c3.jpg",
         "importance": 1,
+        "active": true,
+        "code": "c3",
         "_": ""
     },
     {
@@ -89,6 +107,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/c4.jpg",
         "importance": 1,
+        "active": true,
+        "code": "c4",
         "_": ""
     },
     {
@@ -100,6 +120,8 @@
         "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/cl_caf.png",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/cl_caf_en.png",
         "importance": 3,
+        "active": true,
+        "code": "cafc1",
         "_": ""
     },
     {
@@ -111,17 +133,21 @@
         "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/caf_supercoupe.png",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/caf_supercup.png",
         "importance": 2,
+        "active": false,
+        "code": "cafc2",
         "_": ""
     },
     {
-        "name": "Coupe de la confédération",
+        "name": "Coupe de la confédération CAF",
         "name_en": "CAF Confederation Cup",
-        "name_fr": "Coupe de la confédération",
+        "name_fr": "Coupe de la confédération CAF",
         "sport": "FOOTBALL",
         "image_en": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/cup_confederation.png",
         "image_fr": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/coupe_confederation.png",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/coupe_confederation.png",
         "importance": 2,
+        "active": true,
+        "code": "cafc3",
         "_": ""
     },
     {
@@ -129,6 +155,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/premier_league.png",
         "importance": 4,
+        "active": true,
+        "code": "premierleague",
         "_": ""
     },
     {
@@ -136,6 +164,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/la_liga.jpg",
         "importance": 3,
+        "active": true,
+        "code": "laliga",
         "_": ""
     },
     {
@@ -143,6 +173,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/serie_a.jpg",
         "importance": 2,
+        "active": true,
+        "code": "seriea",
         "_": ""
     },
     {
@@ -150,6 +182,8 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/bundesliga.png",
         "importance": 3,
+        "active": true,
+        "code": "bundesliga",
         "_": ""
     },
     {
@@ -157,6 +191,19 @@
         "sport": "FOOTBALL",
         "image": "https://zenplus.cyberdix.com/application/mobile/medias/competitions/ligue1.png",
         "importance": 3,
+        "active": true,
+        "code": "ligue1",
+        "_": ""
+    }, 
+    {
+        "name_en": "Football matches (Exceptional)",
+        "name_fr": "Matches de foot (Exceptionnels)",
+        "name": "Football matches (Exceptional)|Matches de foot (Exceptionnels)",
+        "sport": "FOOTBALL",
+        "image": "",
+        "importance": 3,
+        "active": true,
+        "code": "foot",
         "_": ""
     }
 ]
