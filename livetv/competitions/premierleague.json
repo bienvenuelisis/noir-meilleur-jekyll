@@ -1,0 +1,27 @@
+[
+    {
+        "competition_code": "premierleague",
+        "home_team": "Manchester United",
+        "outside_team": "NewCastle",
+        "image": "https://cdn.mos.cms.futurecdn.net/dy7Ew6eQpenMTk6euEtuuY.jpg",
+        "context_en": "Day 4 of the Premier League Championship",
+        "context_fr": "4 ème journée du Championnat de Premier League",
+        "further_description_en": "Cristiano Ronaldo fait son grand retour sous le maillot de Manchester United !",
+        "further_description_fr": "Cristiano Ronaldo makes his comeback in the Manchester United jersey!",
+        "further_image": "https://pbs.twimg.com/media/E--6kfJWYAAKg8U?format=jpg&name=900x900",
+        "stadium": "Old Trafford",
+        "referee": "A. Taylor",
+        "start_at": "2021-09-11T14:00",
+        "duration_in_minutes": 105, 
+        "channels_fr": [
+            "FR: RMC SPORT 2HD",
+            "FR: CANAL + SPORTS",
+            "FR: Canal+"
+        ],
+        "channels_en": [
+            "FR: RMC SPORT 2HD",
+            "FR: CANAL + SPORTS",
+            "FR: Canal+"
+        ]
+    }
+]
