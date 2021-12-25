@@ -1,26 +1,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyll</loc>
+        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyll</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyllabout</loc>
+        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllabout</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyllcategories</loc>
+        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllcategories</loc>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekylltags</loc>
+        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekylltags</loc>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyllcontact</loc>
+        <loc>https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllcontact</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>

@@ -5,9 +5,9 @@ description: "Vivre ensemble, c'est toujours possible."
 logo: 'assets/favicons/logo.png'
 favicon: 'assets/favicons/logo.png'
 #url: ''
-url: 'https://bienvenuelisis.github.io'
+url: 'https://bienvenuelisis.github.io/noir-meilleur-jekyll'
 #baseurl: ''
-baseurl: 'https://bienvenuelisis.github.io'
+baseurl: 'https://bienvenuelisis.github.io/noir-meilleur-jekyll'
 google_analytics: 'G-1XSX4CZHBN'
 email: 'elisis.author@gmail.com'
 disqus: 'noir-meilleur'
@@ -28,8 +28,8 @@ authors:
     display_name: Kokou AGBAVON
     gravatar: c9908ff7b5184aae488be00a62a75c27
     email: elisis.author@gmail.com
-    web: https://bienvenuelisis.github.io/noir-meilleur-jekyll
-    site: https://bienvenuelisis.github.io/noir-meilleur-jekyll
+    web: https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyll
+    site: https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyll
     twitter: https://twitter.com/AgbavonB
     social: https://www.linkedin.com/in/bienvenu-agbavon/
     instagram: https://www.instagram.com/noir___meilleur/
