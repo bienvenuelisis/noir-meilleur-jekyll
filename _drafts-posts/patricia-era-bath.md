@@ -38,7 +38,7 @@ Patricia Era Bath ; à sa conviction, son engagement, ses travaux et son génie.
 
 Merci Patricia.
 
-# Article en ligne : https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllpatricia-era-bath/
+# Article en ligne : https://bienvenuelisis.github.io/noir-meilleur-jekyll/patricia-era-bath/
 
 # Social Media Article Présentation : 
 >Ouvre les yeux, et voit.
@@ -58,8 +58,8 @@ Si. Découvrez la biographie celle qui aura _changé le visage de la médecine_.
 
 # Social Media Article Présentation : 
 
-https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllassets/images/scientists/patricia-era-bath/04Bath1-superJumbo.jpg
+https://bienvenuelisis.github.io/noir-meilleur-jekyll/assets/images/scientists/patricia-era-bath/04Bath1-superJumbo.jpg
 
-https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllassets/images/scientists/patricia-era-bath/Dr_Patricia_Bath.jpg
+https://bienvenuelisis.github.io/noir-meilleur-jekyll/assets/images/scientists/patricia-era-bath/Dr_Patricia_Bath.jpg
 
 # Youtube Link : https://www.youtube.com/watch?v=gcE_QMTBNW4

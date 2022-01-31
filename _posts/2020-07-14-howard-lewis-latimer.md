@@ -23,7 +23,7 @@ On peut trouver à ce protagoniste beaucoup d'excuses ; mais tout aussi *concrè
 
 # Prologue.
 
-Même si l'idée de la création de ce blog, et de ce type de contenus est antérieure à cet événement, il l'a grandement encouragé. Car une personne qui lira un des articles de la catégorie [Savants & Personnalités Noirs](https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllcategories#savants-personnalites-noirs), sera une personne de plus qui ne sera pas dans la même ignorance coupable.
+Même si l'idée de la création de ce blog, et de ce type de contenus est antérieure à cet événement, il l'a grandement encouragé. Car une personne qui lira un des articles de la catégorie [Savants & Personnalités Noirs](https://bienvenuelisis.github.io/noir-meilleur-jekyll/categories#savants-personnalites-noirs), sera une personne de plus qui ne sera pas dans la même ignorance coupable.
 
 Cet article inaugurale, part à la découverte de Lewis Howard Latimer : un inventeur, ingénieur et dessinateur qui a vécu entre 1848 et 1928 aux Etats-Unis. Il n'y a pas meilleur exemple pour commencer et illustrer cette catégorie que celui de Lewis Howard Latimer. 
 

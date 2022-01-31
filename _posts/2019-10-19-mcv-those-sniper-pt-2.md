@@ -388,7 +388,7 @@ comments: true
     <br>Aidez les à mettre en oeuvre les mesures de précautions.
     <br><br>
     Si vous avez jugé cet article utile, n'hésitez pas à le
-    <a href="whatsapp://send?text=https://bienvenuelisis.github.io/noir-meilleur-jekyll/noir-meilleur-jekyllblog/health/mcv-those-sniper-pt-2"
+    <a href="whatsapp://send?text=https://bienvenuelisis.github.io/noir-meilleur-jekyll/blog/health/mcv-those-sniper-pt-2"
        data-action="share/whatsapp/share">partager</a>.
 </p>
 
